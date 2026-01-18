@@ -1,0 +1,58 @@
+Expose überarbeiten. Haben die Nutzer zeit.
+
+Einmal im Monat treffen
+
+
+Wichtig: 
+	-Keine hype KI
+	-Der Prozess soll wirklich sinnvoll sein KI zu benutzen
+	-Gerne zeigen was nicht funktioniert
+	-Klarer abgrenzen (was ist das was ich tue)
+	-Literatur RAG und SQL bauen
+
+
+Deutlich Sauberere Arbeit bei der Bachelorarbeit!
+	-Sauber argumentieren. 
+	-Format
+
+
+
+Alle Daten müssen auf jeden fall ready sein
+Es soll klar sein, dass es in der Zeit machbar ist.
+
+
+
+Man darf früher abgeben! (egal wann)
+
+
+
+KI macht ein chart
+
+
+
+Risiken? Wie kontrolliere ich die KI ausgaben? (Abfrage ausgeben / Relevante stelle in der Doku anzeigen)? Wie vermeide ich fehler? Wie stelle ich sicher, dass der nutzer alles nachvollziehen kann?
+
+
+
+
+
+
+Sehr klar wie das system aussieht und wie man das evaluiert!!!		(Bei SQL abfragen)
+Usertests! -> Ergebnis gut aber ist der nutzer überhaupt Schneller?
+
+
+
+Doku abfragen -> RAG (ob das was kommt stimmt ist einfach zu testen, aber ob etwas vergessen wurde ist schwer)
+
+
+
+Interpretationsfragen
+
+
+
+Unmögliche Fragen (Filtern) 
+	-Chatgpt soll nichts erfinden
+	-Falls man zb eine tabelle angibt die es nicht gibt dann soll die LLM sagen, dass es dazu nichts gibt / es unmöglich ist
+
+
+

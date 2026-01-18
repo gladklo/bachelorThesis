@@ -1,0 +1,25 @@
+Chatbot in teams. 
+	->Daten sind sicher
+	->Einfach zum benutzen / Testen
+
+
+Versuchen die Systeme und Services zu nutzen die wir gerade haben
+
+Wir haben einen eigenen Kopiloten und SAP Ai Co Hub (viele 
+
+
+
+Copilot (Agend / Chatbot erstellen), Konnektor erstellen pdf doku und oData / SAP system connector
+ Studio / Joule
+
+Kommunikation über MS Teams
+
+
+Lizenz für Copilot User inventory
+
+
+MCP
+
+https://github.com/lemaiwo/btp-sap-odata-to-mcp-server
+ 
+https://github.com/oisee/odata_mcp_go
