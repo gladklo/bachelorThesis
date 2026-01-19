@@ -1,0 +1,44 @@
+https://www.youtube.com/watch?v=zr4GfbLeDo8&list=PLvqyDwoCkBXYHECuHw2pKN2DrWjyn3q5f
+
+1. Power Platform + SAP: Updates via SAP OData services (2 Jahre alt)
+	-Simple Demonstration connector in Power automate
+	-Demonstration Read, Update und Query Connector
+
+2. Power Platform + SAP: Creating data in SAP from Power Apps via Power Automate & OData (1 Jahr alt)
+	-Demonstration Create Connector
+	-Userinterface für Dynamische Dateneingabe (mit Powerapps)
+
+3. Power Platform + SAP: Accessing local SAP services via the on-prem data gateway (1 Jahr alt)
+	-Access SAP System welches hinter einer Firewall ist
+	-Access SAP Systen with Gateway
+
+
+4. Power Platform + SAP: Working with SAP API Management (1 Jahr alt)
+	-Access SAP System welches hinter einer Firewall ist
+	-Access SAP Systen with API Key
+
+5. Power Platform + SAP: Getting started with Copilot Studio and SAP (1 Jahr alt)
+	-Simpler Chat mit Copilot AI um Items eines bestimmten Sets mit der durch die KI festgestellten Kategorie aus dem oData backend zu bekommen
+
+(6. Sending Events from SAP to SAP Event Mesh on Business Technology Platform (1 Jahr alt))
+	-Sending Event when f.e. Business Partner, Purchase Order etc. ... is created
+
+(7. Consuming Events from SAP: Webhooks & Power Automate (1 Jahr alt))
+	-Event aus Punkt 6 Konsumieren in Power Automate und Flow ausführen
+
+8. Power Platform + SAP OData - Single Sign-On - Happy path (1 Jahr alt)
+	-Extrem Komplizierter weg Power Plattform und SAP system per API zu verbinden
+
+
+
+
+
+
+Blockpost: Teams, Copilot and oData
+https://techcommunity.microsoft.com/blog/sapapplications/sap--teams-integration-with-copilot-studio-and-generative-ai/4213260 !!!!
+
+
+Allgemeine Vorteile SAP oData Connector:
+	-Übernimmt XCSRF Token handling
+
+	
