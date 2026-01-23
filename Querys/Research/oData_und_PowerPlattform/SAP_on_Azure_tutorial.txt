@@ -26,8 +26,26 @@ https://www.youtube.com/watch?v=zr4GfbLeDo8&list=PLvqyDwoCkBXYHECuHw2pKN2DrWjyn3
 (7. Consuming Events from SAP: Webhooks & Power Automate (1 Jahr alt))
 	-Event aus Punkt 6 Konsumieren in Power Automate und Flow ausführen
 
-8. Power Platform + SAP OData - Single Sign-On - Happy path (1 Jahr alt)
+? 8. Power Platform + SAP OData - Single Sign-On - Happy path (1 Jahr alt)
 	-Extrem Komplizierter weg Power Plattform und SAP system per API zu verbinden
+
+? 9. Power Platform + SAP OData - Single Sign-On - Step by Step (1 Jahr alt)
+	-Video 9. aber ausführlich
+	-Login "Microsoft Entra ID Integrated (with APIM)
+
+10. Copilot + SAP: Azure API Management, MCP and SAP OData (Vor 7 Monaten)
+	-MCP Server API einrichten die zugriff auf oData hat und man kann dann mit der über zb Teams chatten
+
+!! 11. Copilot Studio + SAP: SAP OData as Knowledge Source (Vor 6 Monaten)
+	-oData als Knowledge source (ohne Querys)
+
+!! 12. Copilot Studio + SAP: Dynamic SAP OData calls (vor 4 Monaten)
+	-Agent mit Flow der oData calls machen kann
+	-Beispiel Prompt
+
+13. Copilot + SAP: Azure API Management, MCP and SAP OData with Copilot Studio ( vor 2 Monaten)
+	-Follow up zu 10.
+	-Lowkey das selbe wie 12. aber der MCP server in Azure API macht direct die Requests
 
 
 
@@ -41,4 +59,10 @@ https://techcommunity.microsoft.com/blog/sapapplications/sap--teams-integration-
 Allgemeine Vorteile SAP oData Connector:
 	-Übernimmt XCSRF Token handling
 
+
+MCP Info:
+https://github.com/lemaiwo/btp-sap-odata-to-mcp-server
+ 
+https://github.com/oisee/odata_mcp_go
+ 
 	
