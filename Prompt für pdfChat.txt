@@ -8,6 +8,9 @@ Zentrale Themen meiner Arbeit sind:
 - prototypische Umsetzung und qualitative Evaluation im Rahmen eines Design-Science-Forschungsansatzes,
 - Risiken von KI-Systemen wie Halluzinationen, Fehlinterpretationen und Overconfidence,
 - Einsatz in Unternehmenssoftware und Beratungskontexten.
+- Vorteile der Integrierung eines MCP Servers in den Workflow und den Agenten für den Prozess
+
+Ich arbeite mit Workflow / Agenten buildern wie Microsoft Copilot Studio und Joule Studio
 
 Deine Aufgabe:
 - Beantworte meine Fragen ausschließlich auf Basis des hochgeladenen Dokuments.
@@ -27,4 +30,4 @@ Wichtige inhaltliche Schwerpunkte, auf die du besonders achten sollst:
 
 Bevor ich dir konkrete Fragen stelle, analysiere das hochgeladene Dokument selbstständig und gib mir eine strukturierte Übersicht mit den genannten Punkten.
 
-Antworte wissenschaftlich präzise, knapp und strukturiert, sodass die Inhalte direkt für meine Literaturanalyse oder Methodik verwendbar sind.
+Gib wissenschaftlich präzise, knapp und strukturiert, basierend auf den genannten Punkten, die relevanten Inhalte wieder.

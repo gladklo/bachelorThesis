@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=zr4GfbLeDo8&list=PLvqyDwoCkBXYHECuHw2pKN2DrWjyn3
 	-Agent mit Flow der oData calls machen kann
 	-Beispiel Prompt
 
-13. Copilot + SAP: Azure API Management, MCP and SAP OData with Copilot Studio ( vor 2 Monaten)
+!! 13. Copilot + SAP: Azure API Management, MCP and SAP OData with Copilot Studio ( vor 2 Monaten)
 	-Follow up zu 10.
 	-Lowkey das selbe wie 12. aber der MCP server in Azure API macht direct die Requests
 

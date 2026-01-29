@@ -1,0 +1,17 @@
+Holger selbst (aus der 13 video playlist) über copilot studio und azure api scheiss
+https://www.youtube.com/watch?v=eCvq_l7Igjw
+
+Die eine Frau und der Holger:
+https://www.youtube.com/watch?v=3ULSvfYAmq0
+
+Random SAP Tutorial:
+https://community.sap.com/t5/technology-blog-posts-by-members/sap-odata-to-mcp-server-running-on-btp/ba-p/14220561
+
+
+
+
+
+
+
+MCP Server an sich bauen:
+https://modelcontextprotocol.io/docs/develop/build-server
