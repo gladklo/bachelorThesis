@@ -1,0 +1,20 @@
+Microsoft Studio:
+-Direkt Agent
+	-Alle Daten angebunden (SAP System und Doku)
+
+-> Eigen Arbeit:	
+	-Muss Doku angepasst warden
+	-Meht cds views?
+
+
+Joule Studio:
+-Prompt 	-> 	AI 	-> 	MCP (builds query) 	-> AI (with querys)	-> 	Action	-> 	SAP System´s oData	-> Response
+
+-> Eigen Arbeit:
+	-MCP Server
+	-Welche Actions braucht man
+
+
+
+WICHTIG!:
+	-Auf sicherheit achten! Nicht direkt von KI generierte querys an oData!
