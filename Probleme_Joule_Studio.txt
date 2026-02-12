@@ -1,0 +1,34 @@
+Negativ:
+
+	An Joule Studio:
+
+- Langsam (Besonders nach 17Uhr)
+- Unverständliche Zusammenhänge (Agenten und Skills in Skills aber gleichzeitig auf der selben ebene?)
+- Unverständlich was getestet wird (Skills muss man Publishen, Actions releasen).
+- Actions in skills warden nicht Automatisch aktualisiert. (Wenn ich einem Skill eine Action hinzufüge und dann parameter in der Action verändere, muss ich im Skill die Action löschen und neu anlegen)
+- Wofür sind environment?
+- Knöpfe reagieren nicht (keine visuelles feedback ob es läd sich aufhängt?
+- Extreme chaching probleme (Man speichert zb Parameter namen, geht aus dem Pop up, geht wieder rein, dort steht immernoch der alte wert, dann ändert man ihn wieder, dann erscheint plötzlich der neue wert)
+- Es erscheint immer ein error der einen auffordert ein sap-ticket zu erstellen (Please contact the support and create the Support-Ticket (with screenshot of the error details).
+	Unexpected token '<', "<html><hea"... is not valid JSON)
+- Man timet während dem benutzen gelegentlich aus um muss sich neu einloggen (seite wird neu geladen)
+
+
+	Für die Usability des Agenten:
+	- Agent schickt beim testen die korrekte Querry bekommt aber keine results.
+	- Agent ignoriert beschreibungen und setzt parameter falsch / benutzt falsche tools
+	- (Sehr selten) gibt es bugs das Input parameter der Skills garnicht erkannt warden oder mit Output parameter vertauscht
+
+
+Positiv:
+
+- Chatbot denkt gut nach und die Pläne die er erstellt (die man im Debugger sieht) sind sehr detailliert und waren IMMER richtig.
+- Versionierung vom AI_Agent ist hilfreich. Mit der richtigen Doku kann man immer zwischen funktionierenden Versionen mit anderen features springen
+
+02259386-aa28-1fd1-80e6-a338612e1e56
+AEE1FCDE-4287-1FE0-BDF3-872182F29DD0
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+DefaultEmailAddress eq 'jan.pfeifer@cbs-consulting.de'
+
+contains(AccountName,'sick') or contains(AnalysisName,'sick')
