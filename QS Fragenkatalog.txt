@@ -1,0 +1,35 @@
+Backend-Datenabfrage:
+
+	1. Was sind die 10 größten Tabellen im System?
+
+	2. Welche Tabellen haben die Delivery Class ‘A’ und mehr als 5000 Einträge? Sortiere 		absteigend nach Anzahl der Einträge.
+
+	3. Zeige mir alle Tabellen aus dem Modul CO mit weniger als 1000 Einträgen und der 		Delivery Class ‘E’.
+
+	(Mit vergleich)
+	4. Welche Delivery Class kommt häufiger vor: ‘A’ oder ‘W’?
+
+	(Mit Visualisierung
+	5. Stelle die Verteilung der Tabellen nach Modulen als Balkendiagramm dar.
+
+	(Mit Metainformationen aus externen Dokumenten9
+	6. Die Tabelle ERSTVC – welchem Business Object ist sie zugeordnet und welcher BO-Typ 		ist das?
+
+Retrieval aus Dokumenten:
+	7. Was bedeutet die Spalte ‘Delivery Class’ in der Tabellenübersicht genau?
+
+
+	8. Wie funktioniert der Filter nach Namespace in der App und welche Auswirkungen hat er 	auf die angezeigten Ergebnisse?
+
+POST-Request
+	9. Wechsle die aktuell ausgewählte Analyse auf die Analyse der {Musterfirma}.
+
+Interpretation:
+	10. Mein System hat besonders viele Tabellen im Modul FI. Ist das ungewöhnlich und wie kann ich das interpretieren?
+
+
+
+
+Einleitung für die Nutzertests:
+-Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
+-Ablauf erklären
