@@ -1,8 +1,12 @@
 Fragen an Eckert
 
+-Darf ich digital Abgeben?
 -Müssen Quellen ins Glossar?
 -Stimmen Sie der Checkliste in der Bachelor Thesis vorlage zu?
--Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen?
+-Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen? (Sehr Technisch, im grunde nicht relevant, kein Mehrwert)
 
 -Passt der Prozess im EA (1.1.3) so? Ausführlicher erklären mit Technischem hintergrund / details?
 -In Zielsetzung kommt ein Diagramm. Soll dieses allgemein sein? Also wie ich mir zu dem Punkt in der Arbeit den Lösungsweg vorstelle oder schon Konkret. Zb falls ich nicht weiß ob ich einen MCP Server anbinde
+
+-Muss ich nichtfunktionale anforderungen definieren und beschreiben, selbst wenn diese theoretisch nicht relevant sind?
+

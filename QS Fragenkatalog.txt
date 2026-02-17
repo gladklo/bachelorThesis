@@ -1,35 +1,86 @@
 Backend-Datenabfrage:
 
 	1. Was sind die 10 größten Tabellen im System?
+	Generell Infos holen	
 
-	2. Welche Tabellen haben die Delivery Class ‘A’ und mehr als 5000 Einträge? Sortiere 		absteigend nach Anzahl der Einträge.
+	2. Auf welcher Datenbank läuft System läuft und wie groß sie.
+	Genrell Infos holen
 
-	3. Zeige mir alle Tabellen aus dem Modul CO mit weniger als 1000 Einträgen und der 		Delivery Class ‘E’.
+	3. Welchen anteil haben die 10 größten tabellen von der gesamtgröße des systems? 
+	Infos kombinieren und Rechnen (KI stellt dynamisch funktionalitäten bereit die man im EA erst einprogrammieren müsste)
 
-	(Mit vergleich)
-	4. Welche Delivery Class kommt häufiger vor: ‘A’ oder ‘W’?
+	4.Wie viele der befüllt Tabellen sind teil eines ET BOs und wieviele nicht
+	Mehrere Schritte pro prompt kombinieren
 
-	(Mit Visualisierung
-	5. Stelle die Verteilung der Tabellen nach Modulen als Balkendiagramm dar.
-
-	(Mit Metainformationen aus externen Dokumenten9
-	6. Die Tabelle ERSTVC – welchem Business Object ist sie zugeordnet und welcher BO-Typ 		ist das?
+	5. Zeige mir alle Tabellen aus dem Modul CO mit weniger als 1000 und mehr als 500 Einträgen und der Delivery Class ‘E’.
+	Komplizierte Query
 
 Retrieval aus Dokumenten:
-	7. Was bedeutet die Spalte ‘Delivery Class’ in der Tabellenübersicht genau?
+	6. Die Tabelle ERSTVC – welchem Business Object ist sie zugeordnet und welcher BO-Typ ist das?
+	Ggf. retrieval plus lookup in Dokumenten (KI verbindet leicht EA daten mit Externen Dokumenten)
 
+	7. Gibt es befüllte Tabellen mit Einträgen zum Business Object PP_ORDER?
+	Lookup in Dokumenten und dann Retreival
+	https://confluence.cbs-consulting.de/spaces/CCETSLT/pages/120098100/Production+order (Alle Tabellen für das BO)
 
-	8. Wie funktioniert der Filter nach Namespace in der App und welche Auswirkungen hat er 	auf die angezeigten Ergebnisse?
+	8. Wonach sucht die "Search" function in der TS app?
+	Lesen der Doku
+
+	9. Was bedeutet die Spalte ‘Delivery Class’ in der Tabellenübersicht genau? 	/// Gibt es eine App mit der ich das System mit anderen Systemen vergleichen kann?
+	Lesen der Doku + Metainformationen über den EA					(KI berät dynamisch basierend auf externen dokumenten über den EA an sich und evt auch Daten darin)
+
 
 POST-Request
-	9. Wechsle die aktuell ausgewählte Analyse auf die Analyse der {Musterfirma}.
+	10. Wechsel die aktuell ausgewählte Analyse auf die Analyse der {Musterfirma}.
+	Verändern von Daten im System
+
 
 Interpretation:
-	10. Mein System hat besonders viele Tabellen im Modul FI. Ist das ungewöhnlich und wie kann ich das interpretieren?
+	11. Mein System hat besonders viele Tabellen im Modul FI. Ist das ungewöhnlich und wie kann ich das interpretieren?    Was bedeutet das für die Transformation zu S/4
+	Tipps geben (basierend auf externen quellen)
+
+Beispielfrage (für die Usertests):
+	1. Gib mir alle Tabellen mit der Delivery Class A
+	
+	2. Sind die Daten der TS app cross client?
 
 
 
 
 Einleitung für die Nutzertests:
+-Nach jeder Aufgabe wird der nutzer gefragt welchen Prozess er als weniger kompliziert empfand. (100% eigene Meinung sagen was man PERSÖNLICH als weniger kompliziert Empfand und Objektiv)
+-Nutzer steht representative für jemand aus der Gruppe der er zugehört. Usecases / Fragen stehen representative für die Art von Fragen
+-Falls zu wenig Wissen eine frage zu beantworten oder keine ahnung, einfach sagen und versuchen, wenn nicht geht, dann nächste frage
+-Zuerst Chatbot dann EA
+-Fragen MÜSSEN mit dem Tool beantwortet warden können (wenn man etwas schon weiß zählt es nicht, lösung muss gezeigt warden)
+-Der bot hat Wissen über die TS App und genrell infos zu Analysen (AO und SI)
 -Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
--Ablauf erklären
+-Die Fragen sind Aufgaben für den user. Er soll aus der KI mit eigenen Worten versuchen die Informationen zu erhalten.
+-Prompts auf Englisch
+
+
+EA Entwickler: 			Jacqueline, Guan Yu, Arthur, Naeem
+
+Power User: 			Johannes, Robert Berger, Leon grimm , Florens Raschke (Doreen Knoll, Christian Kämmerer)
+
+Berater mit wenig EA Erfahrung: Michael Gudd, Jannik Pisot, Kyra Honert, Michael Emmerich (Marion Lux, Ute Meinert)
+
+
+Johannes hat getan:
+
+
+Selten:
+-Mngmt summary ziehen
+
+Gewöhnlich:
+- OS (Company Codes)
+- BM (Compare to other Systems)
+- BO (Look at active Modules)
+- DI (Later on, Details in Tables gucken) ( App zu complex für bot prototype)
+
+
+Oft:
+-System Information: (Which Database, Database size, How full is the databse)
+- TS (10 Bigges Tables by NoOfRecords and UsedStorage Space) (--> Show the tables, sum of their data)
+- TS (vorschlag von Johannes "match it with the one legacy unit" and show which BO is behind it)
+- CI (All questions are interesting)
