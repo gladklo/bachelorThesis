@@ -1,12 +1,13 @@
 Fragen an Eckert
 
--Darf ich digital Abgeben?
--Müssen Quellen ins Glossar?
--Stimmen Sie der Checkliste in der Bachelor Thesis vorlage zu?
--Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen? (Sehr Technisch, im grunde nicht relevant, kein Mehrwert)
+1. Darf ich digital Abgeben?
+2. Brauche ich Quellen für meine Glossareinträge?
+3. Ich habe als Layout / Inhalt vorlage die Latex vorlage der Hochschule benutzt (https://gitty.informatik.hs-mannheim.de/steinberger/wif-exposee/src/commit/6be4de292b3a35ee28e3159df41f4edf33885e1f/latex). "Stimmen Sie dieser Vorlage zu?" bzw. gibt es Punkte die 
+4. Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen? (Sehr Technisch, im grunde nicht relevant, kein Mehrwert)
 
--Passt der Prozess im EA (1.1.3) so? Ausführlicher erklären mit Technischem hintergrund / details?
--In Zielsetzung kommt ein Diagramm. Soll dieses allgemein sein? Also wie ich mir zu dem Punkt in der Arbeit den Lösungsweg vorstelle oder schon Konkret. Zb falls ich nicht weiß ob ich einen MCP Server anbinde
+5. Passt der Prozess im EA (1.1.3) so  (sieh. Anhang screenshot)? Oder soll ich es ausführlicher erklären mit Technischem hintergrund / details?  Theoretisch ist nicht notwendig für den Kontext der Arbeit aber es gäbe schon noch Dinge die man sagen könnte (wie allgemeiner Authentifizierungsprozess, wo aber eben die KI keine rolle spielt)
 
--Muss ich nichtfunktionale anforderungen definieren und beschreiben, selbst wenn diese theoretisch nicht relevant sind?
+6. Muss ich nichtfunktionale anforderungen definieren und beschreiben, selbst wenn diese theoretisch nicht relevant sind? (Geht ja in der Arbeit um den Konkreten fall ob KI helfen kann, wenn eben alles funktioniert (best case)
+
+7. In welcher Form könnte ich Ihnen meine Arbeit zum "Tipps geben" geben? Einzelne Kapitel? Einfach alles wie sie ist und sie bewerten eben was sie sehen und sagen ihre Gedanken?
 

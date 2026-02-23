@@ -36,8 +36,9 @@ POST-Request
 
 
 Interpretation:
-	11. Mein System hat besonders viele Tabellen im Modul FI. Ist das ungewöhnlich und wie kann ich das interpretieren?    Was bedeutet das für die Transformation zu S/4
+	11. Mein System hat besonders viele Tabellen im Modul FI. Ist das ungewöhnlich und wie kann ich das interpretieren? Was bedeutet das für die Transformation zu S/4
 	Tipps geben (basierend auf externen quellen)
+
 
 Beispielfrage (für die Usertests):
 	1. Gib mir alle Tabellen mit der Delivery Class A
@@ -48,6 +49,7 @@ Beispielfrage (für die Usertests):
 
 
 Einleitung für die Nutzertests:
+-Bei Technischen Problemen bitte ich einfach die Frage zu wiederholen oder etwas konkretes einzugeben um eine antwort zu provozieren)
 -Nach jeder Aufgabe wird der nutzer gefragt welchen Prozess er als weniger kompliziert empfand. (100% eigene Meinung sagen was man PERSÖNLICH als weniger kompliziert Empfand und Objektiv)
 -Nutzer steht representative für jemand aus der Gruppe der er zugehört. Usecases / Fragen stehen representative für die Art von Fragen
 -Falls zu wenig Wissen eine frage zu beantworten oder keine ahnung, einfach sagen und versuchen, wenn nicht geht, dann nächste frage
@@ -57,6 +59,7 @@ Einleitung für die Nutzertests:
 -Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
 -Die Fragen sind Aufgaben für den user. Er soll aus der KI mit eigenen Worten versuchen die Informationen zu erhalten.
 -Prompts auf Englisch
+-Am ende gerne herumprobieren
 
 
 EA Entwickler: 			Jacqueline, Guan Yu, Arthur, Naeem
