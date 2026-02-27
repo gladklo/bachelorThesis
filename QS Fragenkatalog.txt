@@ -55,11 +55,14 @@ Einleitung für die Nutzertests:
 -Falls zu wenig Wissen eine frage zu beantworten oder keine ahnung, einfach sagen und versuchen, wenn nicht geht, dann nächste frage
 -Zuerst Chatbot dann EA
 -Fragen MÜSSEN mit dem Tool beantwortet warden können (wenn man etwas schon weiß zählt es nicht, lösung muss gezeigt warden)
+-Fragen stehen stellvertretend für alle möglichen Fragen der Art (BOT kann alle Informationen holen?
 -Der bot hat Wissen über die TS App und genrell infos zu Analysen (AO und SI)
 -Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
 -Die Fragen sind Aufgaben für den user. Er soll aus der KI mit eigenen Worten versuchen die Informationen zu erhalten.
 -Prompts auf Englisch
--Am ende gerne herumprobieren
+-Am ende Fragen zur einschätzung er Usability
+	-Kannst du dir vorstellen den Bot bei Doku Fragen zu benutzen?
+	-Gibt es usecases wo du eher den Bot benutzen würdest als den EA?
 
 
 EA Entwickler: 			Jacqueline, Guan Yu, Arthur, Naeem

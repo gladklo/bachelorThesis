@@ -2,7 +2,9 @@ Negativ:
 
 	An Joule Studio:
 
-- Langsam (Besonders nach 17Uhr)
+- Ignoriert hartgecoded properties (wenn zb ein Parameter im Skill Hardcoded ist)
+- Joule ignoriert wichtige einträge in der Antwort der Agenten (zb gibt Agent eine Quelle für seine antwort an aber joule ignoriert diese)
+- Langsam
 - Unverständliche Zusammenhänge (Agenten und Skills in Skills aber gleichzeitig auf der selben ebene?)
 - Unverständlich was getestet wird (Skills muss man Publishen, Actions releasen).
 - Actions in skills warden nicht Automatisch aktualisiert. (Wenn ich einem Skill eine Action hinzufüge und dann parameter in der Action verändere, muss ich im Skill die Action löschen und neu anlegen)
@@ -32,3 +34,5 @@ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 DefaultEmailAddress eq 'jan.pfeifer@cbs-consulting.de'
 
 contains(AccountName,'sick') or contains(AnalysisName,'sick')
+
+Give me the 10 biggest tables in the system
