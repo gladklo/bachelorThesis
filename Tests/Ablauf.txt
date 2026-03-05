@@ -1,0 +1,81 @@
+Vorbereitung:
+	Confluence auf https://confluence.cbs-consulting.de/pages/viewpage.action?pageId=113092050&spaceKey=CCETSLT&title=Business%2BObjects
+	EA auf (analyse vorauswählen: Sick | ECS.100 | 2025-08-08)
+	EA Doku auf
+	Joule auf
+	Copilot Auf
+
+
+
+Fragen anders worden
+
+
+
+
+Einleitung für die Nutzertests:
+-Wenn etwas jetzt in der Einleitung unklar ist bitte direkt sagen!
+
+-Fragen wie Aufgaben sehen und mit Chatbot beantworten dann mit EA lösen.
+-So lange Probieren bis die Antwort da ist (vorwissen zählt nicht) oder ich abbreche.
+
+-Nach jeder Aufgabe wird der nutzer gefragt welchen Prozess er als weniger kompliziert empfand. (100% Bachgefühl)
+
+-Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
+-Ich nehme es per Video auf zur eigenen Auswertung
+
+
+Beispielfrage (für die Usertests):
+	1. Gib mir alle Tabellen mit der Delivery Class A
+	
+	2. Sind die Daten der TS app cross client?
+
+Noch Fragen?
+
+Ab hier alles aufnehmen. Ich benutze es nur selbst!
+
+Backend-Datenabfrage: 	Joule Bot (Der Bot hat zugriff auf EA Backen und alle für die Fragen relevante Daten)
+
+	1. Was sind die 10 größten Tabellen im System?
+	Generell Infos holen	
+
+	Mit der Frage zielen wir darauf ab Infiormationen über das Kundensystem herauszufinden.
+	2. Auf welcher Datenbank läuft das System läuft und wie groß ist es.
+	Genrell Infos holen
+
+	3. Welchen anteil haben die 10 größten tabellen von der gesamtgröße des systems? 
+	Infos kombinieren und Rechnen (KI stellt dynamisch funktionalitäten bereit die man im EA erst einprogrammieren müsste)
+
+	4.Wie viele der Tabellen mit mind einem eintrag sind teil eines ET BOs und wieviele nicht?
+	Mehrere Schritte pro prompt kombinieren
+
+	5. Zeige mir alle Tabellen mit weniger als 1000 und mehr als 500 Einträgen und der Delivery Class ‘E’.
+	Komplizierte Query
+
+	6. Auf welche Informationen über das System habe ich zugriff??
+	Metadaten - Chatbot bietet support für sich selbst
+
+Retrieval aus Dokumenten:	Copilot Bot (Der Bot hat zugriff auf die Doku des EA und alle unterseiten der Confluence seite https://confluence.cbs-consulting.de/pages/viewpage.action?pageId=113092050&spaceKey=CCETSLT&title=Business%2BObjects)
+	7. Die Tabelle TE420 – welchem Business Object ist sie zugeordnet?
+	Ggf. retrieval plus lookup in Dokumenten (KI verbindet leicht EA daten mit Externen Dokumenten)
+
+	8. Gibt es befüllte Tabellen mit Einträgen zum Business Object Profit Center Accounting  / CO\_PCACC?
+	Lookup in Dokumenten und dann Retreival
+
+	9. Wonach sucht die "Search" function in der TS app?
+	Lesen der Doku
+
+	10.Welche app zeigt mir informationen zu den Tabellen in meinem System?   <--- Refinen!
+	Lesen der Doku + Metainformationen über den EA
+	
+Which apps give me an overview on master data?
+
+
+
+
+
+
+AM ENDE
+Fragen zur einschätzung er Usability
+	-Kannst du dir vorstellen den Bot bei Doku Fragen zu benutzen?
+	-Gibt es usecases wo du eher den Bot benutzen würdest als den EA?
+	-Benutzt du andere chatbots?

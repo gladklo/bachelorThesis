@@ -3,6 +3,7 @@ Negativ:
 	An Joule Studio:
 
 - Ignoriert hartgecoded properties (wenn zb ein Parameter im Skill Hardcoded ist)
+- Kennt die korrekten Feldnamen nicht (wenn er sie in filter benutzt)
 - Joule ignoriert wichtige einträge in der Antwort der Agenten (zb gibt Agent eine Quelle für seine antwort an aber joule ignoriert diese)
 - Langsam
 - Unverständliche Zusammenhänge (Agenten und Skills in Skills aber gleichzeitig auf der selben ebene?)
@@ -36,3 +37,14 @@ DefaultEmailAddress eq 'jan.pfeifer@cbs-consulting.de'
 contains(AccountName,'sick') or contains(AnalysisName,'sick')
 
 Give me the 10 biggest tables in the system
+
+Available fields for the $filter parameter are:
+SystemId : string
+TableName : string
+TableText : string
+NumberOfRows : string
+DeliveryClass : string
+isCustomTable : string
+MasterTableText : string
+IsPartOfETBoFlag : boolean
+UsedStorageSpace : string

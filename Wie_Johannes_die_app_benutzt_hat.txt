@@ -1,0 +1,21 @@
+Johannes hat getan:
+
+
+Selten:
+-Mngmt summary ziehen
+
+Gewöhnlich:
+- OS (Company Codes)
+- BM (Compare to other Systems)
+- BO (Look at active Modules)
+- DI (Later on, Details in Tables gucken) ( App zu complex für bot prototype)
+
+
+Oft:
+-System Information: (Which Database, Database size, How full is the databse)
+- TS (10 Bigges Tables by NoOfRecords and UsedStorage Space) (--> Show the tables, sum of their data)
+- TS (vorschlag von Johannes "match it with the one legacy unit" and show which BO is behind it)
+- CI (All questions are interesting)
+
+
+

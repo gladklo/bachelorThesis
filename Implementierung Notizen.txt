@@ -1,0 +1,37 @@
+Joule Studio:
+
+-UI Beispiele von den Chatbots in den Anhang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copilot Studio:
+
+-UI Beispiele von den Chatbots in den Anhang
+
+
+Modell:
+Gpt 4.1 sucht nicht genau genug (gibt zu schnelle antworten)
+Gpt 5 Reasoning braucht vergleichsweise sehr lange
+
+
+-> Auf 5.1 hatte ich kein Zugriff -> Reasont wie 5 aber schnell wie 4.1
+-> Wollte die Dateien nicht groß verändern weil sonst kein KI Vorteil entsteht (-> Wenn alles strukturiert benutzte ich gleich einfach ein Skript)
