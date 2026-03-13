@@ -1,0 +1,108 @@
+1 Mail (18.02.2026)-----------------------------------------------------------------------------
+
+1. Darf ich digital Abgeben?
+
+Soweit ich weiß ja, bitte in Moodle hochladen und zusätzlich an beide Betreuer per Mail mit dem informellen Hinweis im Mailtext, dass es sich bei dem PDF um eine identische Version zur finalen Abgabe in Moodle handelt. Trotzdem der Disclaimer: Keine Garantie bei meinen Antworten zu formalen Prüfungsabläufen, im Zweifel noch mal beim Prüfungsamt oder dem Studiengangsleiter fragen.
+
+2. Brauche ich Quellen für meine Glossareinträge?
+
+Normalerweise nicht, wenn Sie die Erklärungen selbst schreiben. Wenn Sie darin zitieren oder eine Definition übernehmen, dann natürlich schon.
+
+3. Ich habe als Layout / Inhalt vorlage die Latex vorlage der Hochschule benutzt (https://gitty.informatik.hs-mannheim.de/steinberger/wif- exposee/src/commit/6be4de292b3a35ee28e3159df41f4edf33885e1f/latex). "Stimmen Sie dieser Vorlage zu?" bzw. gibt es Punkte die
+
+Ich stimme zu, da habe ich keine eigenen Anforderungen.
+
+4. Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen? (Sehr Technisch, im grunde nicht relevant, kein Mehrwert)
+
+Kurz beschreiben, wie die Arbeit technisch eingebettet ist, Details können Sie da dann wohl weglassen (Relevanz will ich nicht beurteilen, das ist Ihre Aufgabe, ich bewerte das dann, wenn ich die Arbeit lese)
+
+
+5. Passt der Prozess im EA (1.1.3) so  (sieh. Anhang screenshot)? Oder soll ich es ausführlicher erklären mit Technischem hintergrund / details?  Theoretisch ist nicht notwendig für den Kontext der Arbeit aber es gäbe schon noch Dinge die man sagen könnte (wie allgemeiner Authentifizierungsprozess, wo aber eben die KI keine rolle spielt)
+
+
+Was ist ein/der EA?
+
+6. Muss ich nichtfunktionale anforderungen definieren und beschreiben, selbst wenn diese theoretisch nicht relevant sind? (Geht ja in der Arbeit um den Konkreten fall ob KI helfen kann, wenn eben alles funktioniert (best case)
+
+Ähnlich zu Authentifizierung kann es interessant sein, das kurz zu beschreiben, aber eben in der gebotenen Kürze. Wenn Sie die bei Ihrer Arbeit aber gar nicht berücksichtigen, dann ist es egal, ich würde dann aber einen Disclaimer schreiben (Limitations, Grenzen der Arbeit), wo sie darauf eingehen, dass NFRs nicht berücksichtigt werden (vielleicht kann man da aber dann ein paar Beispiele für relevante NFRs geben, die man berücksichtigen könnte).
+
+
+7. In welcher Form könnte ich Ihnen meine Arbeit zum "Tipps geben" geben? Einzelne Kapitel? Einfach alles wie sie ist und sie bewerten eben was sie sehen und sagen ihre Gedanken?
+
+Tipps am Ende vor der Abgabe gebe ich generell nicht, sonst beschweren Sie sich hinterher bei einer schlechten Note, wieso ich das nicht vorher gesagt habe. Sie dürfen mir aber gern konkrete Fragen stellen oder eine Zwischenpräsentation ansetzen für Feedback.
+
+Viele Grüße,
+
+Kai Eckert
+
+2 Mail (01.03.2026)-----------------------------------------------------------------------------
+
+
+1. Literaturanalyse
+      1. Die Bachelorarbeit wird ca.40 Seiten lang (ohne Anhänge). Ist dieses Kapitel pauschal zu lang / kurz?
+
+Kann man pauschal nicht sagen, insofern nein. Der Text wimmelt von Fehlern, das wird hoffentlich noch besser. Immer erst mal beschreiben, worum es im betrachteten Paper geht, der Einstieg mit der ersten Referenz ist da schon grenzwertig, da fehlt der Kontext. Kurz beschreiben, um was es geht und dann mit der eigenen Arbeit (und ggf. anderen) in Bezug setzen.
+
+      2. Ist der Ansatz vom Groben KI Thema bis hin zu konkreten Arbeiten mit ähnlichen Thesen die verschiedenen Paper zu Analysieren und zu Bewerten so okay?
+
+Ja, auf jeden Fall sinnvoll gruppieren, so dass man einen roten Faden in der Auseinandersetzung sieht.
+
+      3. Am ende schließe ich den Bogen wie erwähnt zu meiner Arbeit und habe offene Fragen / "Probleme" festgestellt. Gehört sowas noch in die Literaturanalyse.
+
+Ja, kann man machen. Normalerweise erwarte ich die Identifikation von Lücken eher in der Einleitung. Auf jeden Fall muss nicht nur eine Lücke identifiziert werden, sondern der eigene Ansatz sollte in Bezug zu anderen Arbeiten gesetzt werden. Ob man das alles in einem macht, ist dann eher Geschmackssache.
+
+
+2. Risikomanagement
+      1. Ist die Gliederung so sinnvoll? Identifikation->Bewertung-  >Maßnahme (ich orientiere mich hier am SEP bei unserem Softwareprojekt, da diese Arbeit im Grund ja auch ein Softwareprojekt ist)
+
+
+Ja, das sollte passen.
+
+3. Qualitätssicherung (Inhalt muss ich nochmal überarbeiten)
+      1. Ich habe das Kapitel so verstanden das ich zunächst einzelne Klassiche AI Probleme aus der Literaturanalyse und Anforderungen an sich aufliste und erkläre wie ich diese gelöst habe. Zusätzlich erkläre ich dann noch wie ich (durch Nutzertests) evaluieren will ob der Chatbot so wie ich Ihn implementiert habe Sinnvoll ist. -> Entspricht das ihrem Verständnis von "Qualitätssicherung" oder wollen Sie eher etwas strukturierteres wie in "Risikomanagement"?
+
+
+Das kann ich nicht pauschal sagen, weil das von der konkreten Implementierung und den Prozessen abhängt. Es sollte schlüssig sein, dass die Qualitätssicherung in geeigneter Form berücksichtigt wurde.
+
+
+4. Zusatzfrage:
+Ich habe in der Latex-Vorlage-Checkliste nichts zu dem Umgang mit KI gefunden und prinzipiell gibt es ja auch noch nicht wirklich etwas genormtes.
+Ich benutze in der Arbeit KI nur:
+- Um mir einen ersten überblick zu gefundenen Quellen zu verschaffen
+- als Formulierungshilfe in einzelnen Abschnitten.
+
+Wünschen Sie sich eine bestimmte Vorgehensweise? AI Notice / Markierung von Seiten auf denen KI als Formulierungshilfe benutzt wurde?
+
+
+Fügen Sie ein wahrheitsgemäßes und vollständiges Statement in Ihre ehrenwörtliche Erklärung ein. Jedes Schnipsel von AI muss von Ihnen geprüft werden.
+
+Viele Grüße,
+
+Kai Eckert
+
+
+3 Mail (03.03.2026)-----------------------------------------------------------------------------
+
+
+1. Meinen Sie mit "Der Text wimmelt von Fehlern,..." Grammatikalische oder / und Stilistische Fehler?
+
+Ja, können Sie ignorieren, wenn Sie das am Ende erst glattziehen.
+
+2. "der Einstieg mit der ersten Referenz ist da schon grenzwertig" Meinen Sie die Referenz im erstem Abschnitt (Kapitelreferenz) oder die erste Quelle?
+
+Die erste Quelle. "WährendDesouza, Dawson und Chenok vor allem die praktischen Herausforde-
+rungen der Implementierung solcher Systeme im öffentlichen Sektor hervorheben,"
+
+Was sind solche Systeme? Danach werden LLMs erwähnt, aber erst mal fehlt der Kontext. Und welchen Bezug hat das zu Ihrer Arbeit? Das sind Kleinigkeiten, die leicht zu bereinigen sind, und wenn es nicht immer perfekt ist, ist das auch nicht so schlimm (daher grenzwertig). Aber gleich als erster Satz ist es ungeschickt, wenn man da gleich ins Stolpern kommt.
+
+Falls die Quelle: Wünschen Sie sich in den Abschnitten eine (bessere) Einleitung oder gehe ich nicht Detailliert genug auf den Inhalt der Quellen ein?
+
+Siehe oben.
+
+Falls die Kapitelreferenz: Was war genau das Grenzwertige? Dass die Einleitung der Literaturanalyse nicht ausführlich genug ist?
+
+Das kann ich alles nicht so pauschal sagen, weil es auf die Einbettung ankommt, also insbesondere auf das, was am Ende in Ihrer Arbeit vor der Literaturanalyse kommt.
+
+Viele Grüße,
+
+

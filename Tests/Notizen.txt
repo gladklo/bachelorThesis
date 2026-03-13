@@ -1,0 +1,77 @@
+Glasklar was von mir ist und was nicht der Arbeit 
+Teams egal
+teams und SAP ist nicht die welt und aus forschungssicht irrelevant
+Im Rahmen mussten wir uns auf Teams / Copilot ... beschränken (limitation) aber es ist eben ein reales arbeitssetting
+	Warum ist es die bestmögliche Umgebung (literatur)
+
+Schwerpunkt ist die Auswertung
+KI muss sagen könne was sie kann und was nicht nach nutzeranfrage
+
+
+
+Was macht er gut?
+Was macht er schlecht?
+Was sind herausforderungen?
+Was sind Potentiale?
+Wie wird er benutzt?
+
+Allgemein:
+-Was ist genau der Scope vom Chatbot?❌
+-Nutzer verstehen es ist AI und erwarten nicht zu viel✅
+-Chatbot gibt individuelle Informationen, individuell Formatiert✅
+-Doku und Confluence müssen immer Aktuell sein sonst falsche tipps❌
+-Nutzer müssen sich korrekt ausdrücken (verschiedene level an erfahrung mit KI) -> Können KI jedoch in 2. Prompt ggf korrigieren❌
+
+Verbesserungen:
+-Chatbot muss query angeben
+-Chatbot muss bei Queries mit zu vielen (zum Anzeigen) Tabellen den totalcount zusätzlich geben
+
+EA Devs:
+-Manche würden bot benutzen, manchen gucken Lieber backend
+
+	Naeem:
+	-Viel Schneller mit Chatbot bei Frage 3
+	-Es wird vergessen das AI nicht 800 Tabellen anzeigen kann Frage (4)
+	-KI Fragt unnötigerweise nach top und skip parameter -> verwirrt Nutzer im Kontext von Frage 4
+	-6. Unklar welche Daten der Chatbot genau hat weil er manchmal nicht alle gibt
+	-7 Findet Antwort in Apps nicht (weiß nicht das es nicht Im Confluence steht)
+	-8 Denkt es gibt nur eine Tabelle weil er mim EA nachgeguckt hat und da nur die Tabellen aus der extraction vorkommen
+	-Queries zeigen zum Teil nicht den Total Count
+
+		Abschlussfragen:
+			-Würde den BOT für Backend fragen benutzen (braucht ihn nicht für EA) aber nur bei einfachen direkten abfragen (Arthur auch)
+
+	Jacqueline:
+	-Verkopft sich in Manchen Fragen da sie viel EA verständnis hat und dann sich fragt auf was der Bot genau zugriff hat
+	-Beklagt Lange Ladezeiten
+	-Findet die lösung schnell im EA
+	-Sehr genaue gewordete prompts
+	-Als die KI die Frage falsch verstanden hat hat sie es selbstständig resolved
+	-Guckt im EA erst zum teil falsch nach (da wenig SAP Wissen)
+
+		Abschlussfragen:
+			-Würde den BOT beim Kundensupport benutzen (wenn Kunden Wissen wollen wo Info oder Funktion xy ist)
+			-Findet den Bot selbst wenig hilfreich da es ihr darum geht ob die Daten richtig im EA angezeigt werden und nicht was die Daten sind (schaut Lieber selbst nach im EAD)
+			-Usecase: Abgeschlossene Support cases als Quelle dem Bot geben, der dann bei wiederholten Support anfragen direct helfen kann? (Fragen häufen sich nicht sehr oft) <-Unterstützung, kein ersatz!!!
+
+Wenig EA erfahrung (consultants):
+-Im fall von Kyra lohnt es sich nicht den EA zu lernen (nur einfache Fragen)
+-Chatbot hat selbst informationen über EA und kann auch hilfestellung geben wo man information xy findet. (Bei Kyra geklappt,
+-Werbung für den EA da einstieg leichter 
+
+Kyra:
+-Keine EA erfarhung, findet sich nicht zurecht
+-keine guten englisch kentnisse
+-Schreibt die ausgaben gerne um, Tabellenformat mit spalte xy (bot erfüllt alle änderungswünsche)
+-Tut sich schwer im Confluence zu suchen.
+-Würde dinge wie "Wwelches BO gehört zu welcher Tabelle" im eigenem system suchen
+	-> Anmelden
+	-> Ladezeiten
+	-> Details muss man selbst suchen
+	-->AI hat das kombiniert durch die externen Wissenquellen gelöst
+-Chatbot hat ihr geholfen sich im EA zurecht zu finden um als beispiel Aufgabe 1 zu lösen
+
+		Abschlussfragen:
+			-Sie würde den Bo auf jeden fall nutzen
+			-Evt dadurch sogar den EA (mehr EA nutzer)
+

@@ -1,16 +1,11 @@
 Vorbereitung:
-	Confluence auf https://confluence.cbs-consulting.de/pages/viewpage.action?pageId=113092050&spaceKey=CCETSLT&title=Business%2BObjects
-	EA auf (analyse vorauswählen: Sick | ECS.100 | 2025-08-08)
-	EA Doku auf
-	Joule auf
-	Copilot Auf
+	Confluence auf 							https://confluence.cbs-consulting.de/spaces/cbsDE/overview
+	EAD <-- auf (analyse vorauswählen: Sick | ECS.100 | 2025-08-08)	https://290846dd-3e6b-495f-b329-f2a08c1ed4de.abap-web.eu10.hana.ondemand.com/ui#analysisselection-display?sap-app-origin-hint=
+	Copilot Auf							https://teams.microsoft.com:443/l/app/?titleId=T_a537c24a-4ce8-5740-25e2-c42587892a95
 
 
-
-Fragen anders worden
-
-
-
+Bachelorarbeit. EA Chatbot
+KEIN Fertiger Chatbot! Vorallem bei Joule gab es häufiger technische Probleme!
 
 Einleitung für die Nutzertests:
 -Wenn etwas jetzt in der Einleitung unklar ist bitte direkt sagen!
@@ -22,12 +17,13 @@ Einleitung für die Nutzertests:
 
 -Gedanken teilen (warum man was fragt, wie man die Antwort findet, ob sie hilfreich ist oder was fehlt)
 -Ich nehme es per Video auf zur eigenen Auswertung
+-Selbst fragen stellen am ende an den Bot
 
-
+Ich gebe nur stichpunkte / schlecht formulierte Fragen.
 Beispielfrage (für die Usertests):
-	1. Gib mir alle Tabellen mit der Delivery Class A
+	1. Tabellen mit Delivery Class A.			Show me all tables with Delivery Class A
 	
-	2. Sind die Daten der TS app cross client?
+	2. Daten aus Table Statistics app cross client?		Is the data of the Table Statistics App cross client?
 
 Noch Fragen?
 
@@ -35,47 +31,53 @@ Ab hier alles aufnehmen. Ich benutze es nur selbst!
 
 Backend-Datenabfrage: 	Joule Bot (Der Bot hat zugriff auf EA Backen und alle für die Fragen relevante Daten)
 
-	1. Was sind die 10 größten Tabellen im System?
+	1. Top 10 Tabellen im System nach speicherplatz.		 				
+	Was sind die 10 größten Tabellen im System (Speicherplatz)?
 	Generell Infos holen	
 
-	Mit der Frage zielen wir darauf ab Infiormationen über das Kundensystem herauszufinden.
-	2. Auf welcher Datenbank läuft das System läuft und wie groß ist es.
+	2. Auf welcher Datenbank das Kundensystem und wie groß?					
+	Auf welcher Datenbank läuft mein System läuft und wie groß ist es?
 	Genrell Infos holen
 
-	3. Welchen anteil haben die 10 größten tabellen von der gesamtgröße des systems? 
+	3. % Anteil des speicherplates der 10 größten Tabellen an der gesamt systemgröße			
+	Welchen anteil haben die 10 größten tabellen von der gesamtgröße des systems? 
 	Infos kombinieren und Rechnen (KI stellt dynamisch funktionalitäten bereit die man im EA erst einprogrammieren müsste)
 
-	4.Wie viele der Tabellen mit mind einem eintrag sind teil eines ET BOs und wieviele nicht?
+	4. Anzahl befüllte Tabellen welche Teil und nicht teil eines ET Bo´s sind 	
+	Wie viele der Tabellen mit mindestens einem eintrag sind teil eines ET BOs und wieviele nicht?
 	Mehrere Schritte pro prompt kombinieren
 
-	5. Zeige mir alle Tabellen mit weniger als 1000 und mehr als 500 Einträgen und der Delivery Class ‘E’.
+	5. Anzahl Tabellen mit <1000 und >500 Einträgen und Delivery Class 'E'
+	Zeige mir die Anzahl an Tabellen mit weniger als 1000 und mehr als 500 Einträgen und der Delivery Class ‘E’.
 	Komplizierte Query
 
-	6. Auf welche Informationen über das System habe ich zugriff??
+	6. Welche Informationen über das System sind verfügbar.
+	Auf welche Informationen über das System habe ich zugriff??
 	Metadaten - Chatbot bietet support für sich selbst
 
 Retrieval aus Dokumenten:	Copilot Bot (Der Bot hat zugriff auf die Doku des EA und alle unterseiten der Confluence seite https://confluence.cbs-consulting.de/pages/viewpage.action?pageId=113092050&spaceKey=CCETSLT&title=Business%2BObjects)
-	7. Die Tabelle TE420 – welchem Business Object ist sie zugeordnet?
+
+	7. Welches ET BO zu Tabelle TE420?
+	Die Tabelle TE420 – welchem Business Object ist sie zugeordnet? --> Antwort: UTIL_DM_PORTION
 	Ggf. retrieval plus lookup in Dokumenten (KI verbindet leicht EA daten mit Externen Dokumenten)
 
-	8. Gibt es befüllte Tabellen mit Einträgen zum Business Object Profit Center Accounting  / CO\_PCACC?
+	8. Welche Tabellen zu BO Object Profit Center Accounting  / CO_PCACC?
+	Gibt es befüllte Tabellen mit Einträgen zum Business Object Profit Center Accounting  / CO\_PCACC? --> Antwort: GLPCT, GLPCA, GLPCC, GLPCO, GLPCP, GLSPC, GLTPC
 	Lookup in Dokumenten und dann Retreival
 
-	9. Wonach sucht die "Search" function in der TS app?
+	9. Funktion der Searchbar in Table Statistics App?
+	Wonach sucht die "Search" function in der Table Statistics app?
 	Lesen der Doku
 
-	10.Welche app zeigt mir informationen zu den Tabellen in meinem System?   <--- Refinen!
+	10. Welche App zeigt daten pro Land? (Wie finde ich die top 10 größten tabellen)
+	Gibt es eine App mit der ich die System Daten pro Land einsehen kann?
 	Lesen der Doku + Metainformationen über den EA
 	
-Which apps give me an overview on master data?
-
-
-
-
 
 
 AM ENDE
 Fragen zur einschätzung er Usability
 	-Kannst du dir vorstellen den Bot bei Doku Fragen zu benutzen?
 	-Gibt es usecases wo du eher den Bot benutzen würdest als den EA?
-	-Benutzt du andere chatbots?
+
+
