@@ -31,6 +31,8 @@ Ab hier alles aufnehmen. Ich benutze es nur selbst!
 
 Backend-Datenabfrage: 	Joule Bot (Der Bot hat zugriff auf EA Backen und alle für die Fragen relevante Daten)
 
+Frage Roh / Musterfrage Englisch / Fragentyp / Funktion des Chatbots (das was unten steht) / Antwort
+
 	1. Top 10 Tabellen im System nach speicherplatz.		 				
 	Was sind die 10 größten Tabellen im System (Speicherplatz)?
 	Generell Infos holen	

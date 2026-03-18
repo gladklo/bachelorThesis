@@ -1,0 +1,26 @@
+1. Top 10 tables in the system by storage usage										:X
+What are the 10 largest tables in the system by storage space?
+
+2. Which database the customer system runs on and its size								:IX (einmal hat er nicht die SystemId gehölt für den anderen oData service)
+Which database is my system running on and how large is it?
+
+4. Number of populated tables that are part of an ET BO and those that are not						:VIII (zum Teil schreibt der im Filter das Feld falsch)
+How many tables with at least one entry are part of an ET BO, and how many are not?
+
+5. Number of tables with <1000 and >500 entries and delivery class 'E'							:X
+Show the number of tables that have fewer than 1000 and more than 500 entries and have the delivery class "E".
+
+6. What information about the system is available									:X
+What information about the system do I have access to?
+
+7. Tables containing the string "documents" in the table name								:
+Which tables contain the string "documents" in their table name?
+
+8. Number of systems running on an S4 HANA system									:
+How many systems are running on an S4 HANA system?
+
+9. Custom tables with more than 500,000,000 bytes of storage and 100,000 entries and delivery class "A"			:
+How many custom tables exist that use more than 500,000,000 bytes of storage and contain more than 100,000 entries?
+
+10. Which of the following tables contain entries									:
+Which of the following tables contain entries: GLPCT, GLPCA, GLPCC, GLPCO, GLPCP, GLSPC, GLTPC?

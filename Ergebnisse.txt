@@ -1,0 +1,66 @@
+\chapter{Ergebnisse}
+\label{Ergebnisse}
+In diesem Kapitel wird anhand der Usertests evaluiert. Wo und wie der Chatbot bei der Analyse von SAP Systememn unterstützend wirkt.
+
+Welche potentiale diese Technologie in Zukunft bietet wird in "Ausblick" besprochen.
+
+-Es kommt sehr auf den Prompt an (QUELLEN). User dürfen nicht zuviel erwarten und müssen sich präzise ausdrücken. Man erwartet trotzdem von KI das sie das weiß und es entsteht ein eindruck das das system nicht  funktioniert obwohl der user schuld ist ->  trotzdem schlechte UX.
+
+
+
+-KI Sollte als high level consultant helfen (weil lieber einfache tasks dafür gut)
+
+-Anhand des EA usecase bewerten
+    -Im EA soll man screenshots machen 
+
+Es wäre interesant zu wissen wenn die Funktionen der Chatbots verbunden wären
+
+\section{Berater mit wenig Erfahrung}
+
+
+
+-Man kann der Ki nicht ewig kontext geben und dinge hardcoden, dann geht irgendwann der vorteil verloren
+
+
+
+
+\section{Power-User}
+
+\section{Probleme}
+-KI muss scope genau kennen, zum teil wusste sie nicht welche skills sie aufrufen muss und dass sie überhaupt passende skills hat (liegt aber auch zum teil an der schlechten implementierung von Joule)
+
+\section{Grenzen der \ac{KI}}
+
+\section{\ac{UX}}
+-Auf userfeedback eingehen
+
+\section{Technische Probleme}
+-Joule Studio hatte nur 50\% der Zeit funktioniert (--> Sap case linken iwie)
+-Durch die Authentifizuerungsprobleme konnte man die Funktionen der Agenten nicht Kombiniert testen -> für User interessante Usecases konnten nicht evaluiert werden
+
+-Obwohl kontext sehr ausführlich gegeben wurde (hier referenz auf prompt) hat der Bot die Feldernamen nicht erkannt
+   -> Ki macht dann eine query FILLED eq true und ET_BO eq true
+    Obwohl es das feld FILLED nicht gibt und das feld ET_BO heisst anders
+
+-Ergebnisse MÜSSEN richtig sein. Angebote werden geschrieben. Vertrauen sinkt.
+
+\section{Hypothesen Evaluierung} \label{Hypothesen Evaluierung}
+Hier struktuiert die Hypothesen einbinden oder das sleek im Text oben immer unterbringen?
+1. Sehr komplexe abfragen scheitern öfters, 
+-> Joule kennt genaue Feldnamen nicht (häufigstes problem=
+-> Komplizierte Abfragen mit vielen parametern werden von den Usern praktisch nie benutzt (user wurden gefragt ob so abfragen realisitisch sind)
+-> Wichtiger ist die Kombination der Daten aus mehreren Schnittstellen
+abgrenzung -> Es wird hier nicht beachtet falls der Bot den Falschen Skills auswählt sondern nur ob die Abfrage richtig ist wenn es soweit kommt
+
+2. Bei Simplen, klaren Anfragen hat es immer direkt geklappt. Aber bei sehr komplexen anfragen nur zum Teil, es wurden trotzdem infos vermischt und Halluziniert (Nico Chat)
+
+3. Den Prototypen würden nicht alle verwenden, da die Tiefe fehlt. Für das was er kann würde man ihn benutzen aber meistens sind es fragen die der Bot nichht selbst
+
+
+\section{Fazit}
+-Bewerten wie gut KI  Dinge gut kann die der EA eh schon kann
+- WAS IST DER MEHRWERT????<----------
+    -Unerfahreren Nutzern EA zugänglich machen
+    -(Frontend) Alternative zum EA bieten
+    -EA Daten und externe dokumente einfach verbinden
+    -Beraten basierend auf externen Dokumenten
