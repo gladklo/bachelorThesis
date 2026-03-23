@@ -1,48 +1,81 @@
 \chapter{Ergebnisse}
 \label{Ergebnisse}
-In diesem Kapitel wird anhand der Usertests evaluiert. Wo und wie der Chatbot bei der Analyse von SAP Systememn unterstützend wirkt.
+In diesem Kapitel wird anhand der Usertests evaluiert. Wo und wie der Chatbot bei der Analyse von \gls{sap}Systemen unterstützend wirkt. Dabei wird anhand des verglichs zwischen EA und Chatbot zur Datenerlangung die Konkrete nützlichkeit gemessen. Zusätzlich werden allgemeine Beobachtungen in der Nutzung des Chatbots aufgezeigt und diskutiert.
 
-Welche potentiale diese Technologie in Zukunft bietet wird in "Ausblick" besprochen.
+%Formulierungen verbessern
 
--Es kommt sehr auf den Prompt an (QUELLEN). User dürfen nicht zuviel erwarten und müssen sich präzise ausdrücken. Man erwartet trotzdem von KI das sie das weiß und es entsteht ein eindruck das das system nicht  funktioniert obwohl der user schuld ist ->  trotzdem schlechte UX.
-
-
-
--KI Sollte als high level consultant helfen (weil lieber einfache tasks dafür gut)
-
--Anhand des EA usecase bewerten
-    -Im EA soll man screenshots machen 
-
-Es wäre interesant zu wissen wenn die Funktionen der Chatbots verbunden wären
-
-\section{Berater mit wenig Erfahrung}
+Welche Potentiale diese Technologie in Zukunft bietet (welche auch durch die Tests klar wurden) wird in "Ausblick" besprochen.
 
 
+\section{Konkrete Ergebnisse}
+(In x von y fällen hat der Chatbot die Abfrage korrekt und für den nutzer zufriedenstellens beantwortet, (egal was welchem grund es nicht geklappt hat))
 
--Man kann der Ki nicht ewig kontext geben und dinge hardcoden, dann geht irgendwann der vorteil verloren
+(Zeiten vergleichen und sonstige Dinge aus QS? Schöne abbildung machen)
+
+\section{Beobachtungen}
+
+\subsection*{Nutzergruppen übergreifend}
+(Positiv Generell AI)
+-Nutzer verstehen es ist AI und erwarten nicht zu viel (\ref{Scope-Abgrenzung} funktioniert)
+-Chatbot gibt Antworten Individuell Formatiert (felder) und als Tabelle (wichtig für nutzer) \ref{Backend-Datenabfrage-Aufbereitet}
+-Nutzer korrigieren sich bzw die KI falls die ursprüngliche Nachricht falsch interpretiert wurde
+-Chatbot fall
+-Joule Chatbot konnte in den Test bei nichtretreiven der Daten direkt selbst sagen wo man die Daten im System finden kann (prinzipielle richtigkeit wurde durch berater bestätigt)
+-Der Chatbot hat verschiedenste Formulierungen der Nutzer verstanden (hier beispiel selber frage ausführlich und salopp formuliert einfügen) und nutzer haben sich aber größtenteils immer klar ausgedrückt (ausnahme: ute beispiel mit "functionalities, anstatt apps" -> scope problem, der KI wurde alles als "APps" erklärt")
+-KI konnte testfragen und eigen gestellte Fragen (beispiel aus Video hier einfügen) beantworten
+-!!!Chatbot konnte wissen aus mehreren QUellen kombinieren, -> retreival aus Dokument und nachsehen im Datenbank!! (fanden nutzer besonders hilfreich) (Welche tabellen zu BO x haben einträge)
+(Neutrale Beobachtungen)!!!
+-Manche filter im EA sind garnicht verfügbar im Frontend und KI kann auf diese trotzdem zugreifen (auch wenn solche speziellöe filter auch eher selten benutzt werden)
+-Chatbot gibt bei fragen zum teil weitere informationen welche die berater zu einem "deep dive" anregen und die aufmerksamkeit auf sich ziehen ( sie hätten garnicht selbst direkt dannach gesucht)
+-Chatbot dient als suchmaschine wenn berater nicht wissen wo sie ansetzen sollen und kann in EA-Doku, Confluence oder EA Backend suchen (ggf auch internet direkt)
+
+-Obwohl Nutzer nicht wissen wie das Backend aufgebaut ist kommen sie doch immer zu den gewünschten Antworten (dazu sagen das die Tests auch nur auf 2 apps gegangen sind und das bei mehr apps ein zusätzliches Problem sein kann weil man sich dann gedanken machen muss wie man die oData schnittstelle(n) strukturiert
+
+-Sparen sich auf jeden Fall zeit zb im Thema BO`s (müssen nicht im System nachgucken sondern können direkt den Bot fragen)
+
+-Eine Angst ersetzt zu werden wie in der Quelle von \cite{yin_can_2024} festgestellt konnte bei den Tests und im Austausch mit den Nutzern nicht festgestellt werden.
+
+\subsection*{Berater mit wenig Erfahrung}
+-Für Berater die selten oder nie den EA benutzen lohnt es sich nicht im sich ständig wandeldem system zurecht zu finden -> Profitieren aber trotzdem von den Backend daten
+-Chatbot kann auch zum EA hilfestellung leisten und zeigen wo man xy findet
+-O
 
 
+\subsection*{Power-User}
+-Wichtigste Form der Daten ist eine Tabelle. KI Konnte daten immer direkt in gewünschte Form bringen zur weiterverarbeitung
+-Auch hier kann Chatbot infos zu neuen / unbekannten features geben, weil die meisten keine release notes lesen
+-Mehrheit schlechte erfahrung mit confluence -> chatbot strukturiert daten (und gibt ggf direkt reale insights im system) -> Improvent im know how austausch
+-Viele Apps haben mit Tabellen zutun, genau die App zu finden mit den infos zu tabellen die man sucht kann ein paar zusätzliche Klicks kosten
 
+-Bot am nützlichsten (zeitersparnis) bei overview / simplen anfragen
+-Bot am Nützlichsten (zeitersparnis plus finden von informationen auf die man selbst erst kommen muss) wenn er erhaltene daten mit Wissen aus Confluence kombiniert -> Tabellen xy sind befüllt, was heißt das dann für meine Migration? (zussamenrechnen von größe aller tabellen aus den letzten (z.b) 2 jahren -> größe des resultierenden S/4 Hana systems, vorschläge welche BO´s, Org units nicht mitgenommen werden)		<- EVT USECASE BEISPIEL MIT NICO DURCHGEHEN FÜR BACHELORARBEIT
 
-\section{Power-User}
+-Wünschten sich gerne mehr daten
+
 
 \section{Probleme}
 -KI muss scope genau kennen, zum teil wusste sie nicht welche skills sie aufrufen muss und dass sie überhaupt passende skills hat (liegt aber auch zum teil an der schlechten implementierung von Joule)
-
-\section{Grenzen der \ac{KI}}
-
-\section{\ac{UX}}
--Auf userfeedback eingehen
-
-\section{Technische Probleme}
--Joule Studio hatte nur 50\% der Zeit funktioniert (--> Sap case linken iwie)
--Durch die Authentifizuerungsprobleme konnte man die Funktionen der Agenten nicht Kombiniert testen -> für User interessante Usecases konnten nicht evaluiert werden
-
+-User Muss KI Scope genau kennen (bereits angesprochenes Problem in anderen Kapiteln kam aber in den tests trotzdem durch)
+-Dokumente müssen aktuell sein (neue Features müssen in der Doku verfügbar sein das AI Beraten kann)
+-Chatbot sehr Prompt abhängig, prompts müssen präzise formuliert werden, keine details auslassen 
+    -> KI kann und soll nicht raten
+    -> KI wirkt kaputt wenn nutzer unpräzise sind und \ac{UX} sinkt (stichwort: "BEFÜLLTE Tabellen"
+-Agent hat vereinzeln seine Aufgabe nicht verstanden oder wusste nicht das er es lösen kann (besonders in Joule) (nach einem "machs einfach" gings dann)
 -Obwohl kontext sehr ausführlich gegeben wurde (hier referenz auf prompt) hat der Bot die Feldernamen nicht erkannt
    -> Ki macht dann eine query FILLED eq true und ET_BO eq true
     Obwohl es das feld FILLED nicht gibt und das feld ET_BO heisst anders
+-Die KI hat manchmal schlecht gerechnet und leicht abweichende Ergebnisse geliefert (quelle)
+-Bot hat zwar die Abfrage angegeben (benutzte Parameter für die Skills), die Nutzer konnten damit jedoch nicht viel Anfangen (dies wurde jedoch akzeptiert, da es eher als Debug funktion dient und die Nutzer im EA auch keine Informationen erhalten wie genau die Daten Abgefragt wurden
+    
+\section{Grenzen der \ac{KI}}
+\label{Grenzen der KI}
+-Chatbot kann nicht sinnvoll mehr als 20 Einträge anzeigen da sein Kontext gesprengt wird (als nutzer nach allen tabellen gefragt haben und es kamen zb 8000 zurück ist er abgestürzt) und es visuell nicht mehr sinnvoll ist
+-Momentan können die Agenten keine Visualisierungen erstellen was zb bei zusammenhängen zwischen tabellen sinnvoll (und von manchen Nutzern (ute und noch jmd) gewünscht war. Dafür ist der EA noch deutlich besser
 
--Ergebnisse MÜSSEN richtig sein. Angebote werden geschrieben. Vertrauen sinkt.
+\section{\ac{UX}}
+-Langsam
+-Mehr visuelle aufbereitungsmöglichkeit
+-Kam sehr gut an das bot in Teams verfügbar ist
 
 \section{Hypothesen Evaluierung} \label{Hypothesen Evaluierung}
 Hier struktuiert die Hypothesen einbinden oder das sleek im Text oben immer unterbringen?
@@ -58,6 +91,12 @@ abgrenzung -> Es wird hier nicht beachtet falls der Bot den Falschen Skills ausw
 
 
 \section{Fazit}
+-KI Sollte als high level consultant helfen (weil lieber einfache tasks dafür gut)
+
+-Anhand des EA usecase bewerten
+    -Im EA soll man screenshots machen 
+    -> KI ergänzt und hilft beratern schnell Dinge herauszufinden
+    
 -Bewerten wie gut KI  Dinge gut kann die der EA eh schon kann
 - WAS IST DER MEHRWERT????<----------
     -Unerfahreren Nutzern EA zugänglich machen
