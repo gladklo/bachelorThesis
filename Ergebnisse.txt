@@ -8,98 +8,157 @@ Welche Potentiale diese Technologie in Zukunft bietet (welche auch durch die Tes
 
 
 \section{Konkrete Ergebnisse}
+\label{Konkrete Ergebnisse}
+
 (In x von y fällen hat der Chatbot die Abfrage korrekt und für den nutzer zufriedenstellens beantwortet, (egal was welchem grund es nicht geklappt hat))
 
 (Zeiten vergleichen und sonstige Dinge aus QS? Schöne abbildung machen)
 
+bei abbruch wird ein X eingefügt
+Sagen das dinge wie bo´s finden darauf ankommt ob ein Kundensystem verfügbar ist oder nicht etc.)
+
+(EA Devs müssen Fragen von 6-10 nicht beantworten)
+
 \section{Beobachtungen}
+In diesem Abschnitt werden die zentralen Beobachtungen aus den Nutzertests zusammengefasst. Dabei werden sowohl nutzergruppenübergreifende Erkenntnisse als auch spezifische Punkte der verschiedenen Nutzergruppen behandelt. Ziel ist es, die festgestellten Stärken und Potenziale, aber auch Herausforderungen und Grenzen des Systems im praktischen Einsatz zu analysieren.
 
 \subsection*{Nutzergruppen übergreifend}
-(Positiv Generell AI)
--Nutzer verstehen es ist AI und erwarten nicht zu viel (\ref{Scope-Abgrenzung} funktioniert)
--Chatbot gibt Antworten Individuell Formatiert (felder) und als Tabelle (wichtig für nutzer) \ref{Backend-Datenabfrage-Aufbereitet}
--Nutzer korrigieren sich bzw die KI falls die ursprüngliche Nachricht falsch interpretiert wurde
--Chatbot fall
--Joule Chatbot konnte in den Test bei nichtretreiven der Daten direkt selbst sagen wo man die Daten im System finden kann (prinzipielle richtigkeit wurde durch berater bestätigt)
--Der Chatbot hat verschiedenste Formulierungen der Nutzer verstanden (hier beispiel selber frage ausführlich und salopp formuliert einfügen) und nutzer haben sich aber größtenteils immer klar ausgedrückt (ausnahme: ute beispiel mit "functionalities, anstatt apps" -> scope problem, der KI wurde alles als "APps" erklärt")
--KI konnte testfragen und eigen gestellte Fragen (beispiel aus Video hier einfügen) beantworten
--!!!Chatbot konnte wissen aus mehreren QUellen kombinieren, -> retreival aus Dokument und nachsehen im Datenbank!! (fanden nutzer besonders hilfreich) (Welche tabellen zu BO x haben einträge)
-(Neutrale Beobachtungen)!!!
--Manche filter im EA sind garnicht verfügbar im Frontend und KI kann auf diese trotzdem zugreifen (auch wenn solche speziellöe filter auch eher selten benutzt werden)
--Chatbot gibt bei fragen zum teil weitere informationen welche die berater zu einem "deep dive" anregen und die aufmerksamkeit auf sich ziehen ( sie hätten garnicht selbst direkt dannach gesucht)
--Chatbot dient als suchmaschine wenn berater nicht wissen wo sie ansetzen sollen und kann in EA-Doku, Confluence oder EA Backend suchen (ggf auch internet direkt)
+Einige Vorteile des Chatbots konnten unabhängig von den Nutzergruppen festgestellt werden. Darunter fallen:
+\begin{itemize}
+    \item \textbf{Individuell formatierte Antworten}: Die \ac{KI} war in der Lage individuell für die Nutzer die Daten in Formaten wie Tabellen oder Listen mit Stichpunkten aufzubereiten. Hier bestand der Vorteil insbesondere von der direkten Selbstbestimmung der Felder der Tabelle und der automatischen Kombination von Daten um direkt Informationen abzuleiten und in einer neuen Spalte darzustellen (siehe. Frage 3 aus \autoref{Fragenkatalog}). Damit wurde die Anforderung, Fragen von Fragetyp in \ref{Backend-Datenabfrage-Aufbereitet} zu beantworten, allgemein Erfüllt. 
+    \item \textbf{Allgemeiner \gls{sap}-Support durch \ac{KI}}: Die \ac{KI} von \gls{joule-studio} wurde von zwei der Testnutzer als besonders hilfreich Empfunden da, als der Agent scheiterte den Korrekten \gls{skill} für die Nutzeranfrage (nicht aus dem Fragenkatalog) herauszusuchen,  die \ac{KI} durch allgemeines \gls{sap} Wissen dem Nutzer eine detaillierte Anleitung geben konnte in welchen Tabellen und \gls{transaktion}en er suchen / nachsehen müsste um die gewünschten Daten zu finden 
+    \item \textbf{Nutzerindividuelle Formulierungen}: Die \ac{KI} war in der Lage verschiedene Formulierungen der selben Frage zu verstehen. \ac{BEISPIEL AUS VIDEOS}. Problematisch wurde es wenn begriffe verwendet wurden die die \ac{KI} nicht zuordnen konnte wie der Begriff \grqq Funktionalitäten \grqq anstatt \grqq Apps\grqq. Mehr dazu wird in \autoref{Grenzen der KI}
+    \item \textbf{Kombination von Wissen aus verschiedenen Quellen}: Der Bot war in der Lage Wissen aus Dokumenten mit Konkreten Daten aus einem System zu kombinieren. Konkret diese Fähigkeit wurde von Frage acht aus dem Fragenkatalog getestet. Eine Einschränkung hier war, dass die Antwort eines Bots dem anderen gegeben werden musste, dieser Aber dann die Korrekten Einträge der Ermittelten Tabellen feststellen konnte. Die Funktionalität des Chatbots wurde von Testern als besonders hilfreich Empfunden da hier die Schritte des Tabellennamen- und Anzahl der Tabelleneinträge suchens weggefallen sind.
+    \item \textbf{Chatbot als Suchmaschine}: Durch zugriff auf allgemeine Informationen über \gls{sap}-Systeme, \gls{confluence} Seiten und die \ac{EA} Dokumentation ist der Chatbot in der Lage bei Konkreten Fragen hilfestellung darüber zu leisten, wo die gewünschten Informationen konkret im System zu finden sind. Knapp die hälfte der Nutzer hat durch eigene, aus echten Kundenprojekten, gestellten Fragen diese Fähigkeit des Chatbots verprobt und die Antworten des Chatbots zumindest teilweise als hilfreich eingestuft (genaueres in \autoref{Probleme-Ergebnisse}. Dies ist als besonders vorteilhaft und potentialhaltig zu gewichten, da über 75\% der Nutzer in Information und Erfahrungsansammlungen wie \gls{confluence} nur selten oder garnicht nachzusehen wenn sie bestimmte Informationen suchten. Zusätzlich hat noch keiner der Nutzer jemals die \ac{EA} Dokumentation aufgerufen um zu prüfen ob die gewünschten Informationen durch den \ac{EA} erlangt werden können.
+    \item \textbf{Wissenserweiterung durch Chatbot Antworten}: Durch zusätzliche Details in den Chatbot Antworten wurden Nutzer angeregt nach Auffälligkeiten und weiteren Informationen zu suchen. Konkret wurde in einem Fall in einer Antwort der \ac{KI} Details zu einer Tabelle (ungefragt) zusätzlich widergegeben. Daraufhin stellte der Nutzer explizit dazu Fragen und konnte so neue Informationen in Erfahrung bringen, an die er Vorher garnichtt gedacht hat.
+    \item \textbf{Quellen in den Antworten}: Die Quellenangaben für dokumentbasierte Antworten wurden nutzergruppenübergreifend als zufriedenstellend eingestuft. Für \gls{confluence}-Seiten wurde der in der an die \ac{KI} übergebenen Datei enthaltene Link verwendet, und für die \ac{EA}-Dokumentation wurden die entsprechenden Kapitel innerhalb der Dokumentation angegeben, sodass die Informationen nachvollzogen werden konnten. Die Quellenangaben für Datenbankabfragen wurden hingegen als wenig hilfreich bewertet, was ausführlicher in \autoref{Probleme-Ergebnisse} erläutert wird.
+\end{itemize}
+Abgesehen von den direkten Punkten der Unterstüzung eines Chatbots bei der Analyse von \gls{sap}-Systemen konnte die \ac{KI} auch optimal bei der Benutzung des \ac{EA}s unterstützen, was den Nutzern durch das näherbringen der Funktionen des \ac{EA}s wiederum helfen kann ausgewählte Aspekte eines \gls{sap}-Systems einfacher und schneller zu Analysieren. Darunter fällt: Hilfestellung welche Aspekte eines \gls{sap}-Systems in jeder App beleuchtet werden und das Aufzeigen von Funktionen in diesen Apps zur Analyse dieser Aspekte. Selbst für \gls{power-user} kann das Hilfreich sein, da neue Funktionen so aufgezeigt werden können, falls diese relevant werden.  
 
--Obwohl Nutzer nicht wissen wie das Backend aufgebaut ist kommen sie doch immer zu den gewünschten Antworten (dazu sagen das die Tests auch nur auf 2 apps gegangen sind und das bei mehr apps ein zusätzliches Problem sein kann weil man sich dann gedanken machen muss wie man die oData schnittstelle(n) strukturiert
+Abgesehen von der direkten Unterstützung bei der Analyse von \gls{sap}-Systemen konnte die \ac{KI} auch bei der Bedienung des \ac{EA} selbst hilfreich sein, was indirekt die Analyse vereinfachen kann. Indem der Chatbot den Nutzen der einzelnen Apps erläutert und aufzeigt, welche Inhalte und Funktionen dort bereitgestellt werden, erleichtert er den Nutzern gezielt den Zugang zu benötigten Funktionen des Werkzeugs. Diese Form der Assistenz erweist sich selbst für \gls{power-user} als wertvoll, da der Chatbot auch auf neue oder bisher wenig genutzte Funktionen aufmerksam machen kann, sobald diese für eine Analyse relevant werden.
 
--Sparen sich auf jeden Fall zeit zb im Thema BO`s (müssen nicht im System nachgucken sondern können direkt den Bot fragen)
+Alle Nutzer, abgesehen von den \ac{EA}-Entwicklern, gaben an, die Kombination der Bots bereits jetzt nutzen zu wollen und besonders die Funktion des Bots zur Datenbankabfrage aktiv zu verwenden, sofern mehr Informationen als die zweier Apps zur Verfügung stehen und die Bots zu einem einzelnen Chatbot kombiniert werden.
 
--Eine Angst ersetzt zu werden wie in der Quelle von \cite{yin_can_2024} festgestellt konnte bei den Tests und im Austausch mit den Nutzern nicht festgestellt werden.
+Zusätzlich wurden die Nutzer nach ihrer Stimmung zu ihrer Befürchtung der Ersetzbarkeit durch \ac{KI} gefragt. Entgegen der festgestellten Angst in \cite{yin_can_2024} haben alle Nutzer das Tool als sehr hilfreiches Werkzeug angesehen, aber keine Befürchtung durch eine \ac{KI} ersetzt zu werden. Dies wurde dadurch begründet, dass die \ac{KI} oft kleine Fehler macht welche durch einen Menschen einfach zu entdecken sind, aber in einem realen Kundenprojekt in der Domäne der \gls{sap} Beratung zu schwerwiegenden Folgen führen kann.
 
 \subsection*{Berater mit wenig Erfahrung}
--Für Berater die selten oder nie den EA benutzen lohnt es sich nicht im sich ständig wandeldem system zurecht zu finden -> Profitieren aber trotzdem von den Backend daten
--Chatbot kann auch zum EA hilfestellung leisten und zeigen wo man xy findet
--O
+Bei Beratern mit wenig Erfahrung konnten speziell Vorteile in der Analyse von Systemen, durch Profitierung von \ac{EA} Daten und Funktionen festgestellt werden. 
 
+Zum einen konnte der Bot durch zugriff auf die Dokumentation Nutzern direkt Schitt für Schritt Anleitungen geben wo und wie sie die Daten im \ac{EA} finden können. Dies ist besonders vorteilhaft, weil einige Berater den \ac{EA} grundsätzlich nutzen würden, jedoch in ihren Projekten nur ein- bis zweimal pro Jahr in eine Phase kommen, in der das Tool für sie relevant ist. Wie drei der vier Tester hervorhoben, ist ihnen das erneute Zurechtfinden im \ac{EA} in solchen Situationen jedoch zu aufwändig. Der Chatbot kann hier spürbar entlasten.
+
+Zum anderen können die Berater, insbesondere wenn sie, wie zwei der vier Tester, wenig technikaffin sind und ihnen die Systemanalyse über den \ac{EA} nicht zusagt, dennoch von den Backend-Daten des \ac{EA} profitieren und mithilfe des Chatbots im Vergleich zu ihren bisherigen Arbeitsweisen Zeit sparen. Besonders deutlich wurde dies bei Frage acht des Fragenkatalogs. Die Nutzer, die den \ac{EA} nicht verwenden, hatten dafür eine eigene Vorgehensweise, bei der sie direkt im Kundensystem nachsehen mussten. Dies dauerte, abhängig davon, ob bereits eine Anmeldung sowie eine VPN-Verbindung bestanden, \ac{MEHR ALS DOPPELT SO LANGE} und erforderte durchgehend manuelles Eintippen, Suchen und ein genaues Wissen darüber, wo die relevanten Daten zu finden sind. Hinzu kommt, dass das Kundensystem aus verschiedenen Gründen temporär verfügbar sein könnte. Mit dem Chatbot hingegen wurden die benötigten Tabellen innerhalb weniger Sekunden identifiziert, und die jeweiligen Einträge konnten je nach Verfügbarkeit des Systems durch den zweiten Chatbot innerhalb von 30 bis 60 Sekunden ermittelt werden.
 
 \subsection*{Power-User}
--Wichtigste Form der Daten ist eine Tabelle. KI Konnte daten immer direkt in gewünschte Form bringen zur weiterverarbeitung
--Auch hier kann Chatbot infos zu neuen / unbekannten features geben, weil die meisten keine release notes lesen
--Mehrheit schlechte erfahrung mit confluence -> chatbot strukturiert daten (und gibt ggf direkt reale insights im system) -> Improvent im know how austausch
--Viele Apps haben mit Tabellen zutun, genau die App zu finden mit den infos zu tabellen die man sucht kann ein paar zusätzliche Klicks kosten
+Für die \gls{power-user} zeigte sich als gemeinsames Merkmal, dass sie sich eine individuell formatierte Ausgabe der Daten in tabellarischer Form wünschten, um diese in Programmen wie Excel weiterverarbeiten zu können. In allen Testfällen war die \ac{KI} in der Lage, diese Anforderung zuverlässig zu erfüllen.
 
--Bot am nützlichsten (zeitersparnis) bei overview / simplen anfragen
--Bot am Nützlichsten (zeitersparnis plus finden von informationen auf die man selbst erst kommen muss) wenn er erhaltene daten mit Wissen aus Confluence kombiniert -> Tabellen xy sind befüllt, was heißt das dann für meine Migration? (zussamenrechnen von größe aller tabellen aus den letzten (z.b) 2 jahren -> größe des resultierenden S/4 Hana systems, vorschläge welche BO´s, Org units nicht mitgenommen werden)		<- EVT USECASE BEISPIEL MIT NICO DURCHGEHEN FÜR BACHELORARBEIT
+Analog zu den Beratern mit wenig Erfahrung konnte der Chatbot auch bei der Benutzung des \ac{EA} unterstützen. Obwohl sich die \gls{power-user} nach eigener Aussage im \ac{EA} gut auskannten, zeigte sich in den Tests, dass sie zwar ungefähr wussten, wo sich Informationen wie „Die zehn größten Tabellen nach Speicherplatz“ befinden, jedoch drei der vier Nutzer zunächst in anderen Apps mit ähnlichen Funktionen nachgesehen hatten, bevor sie die richtige App mit den gesuchten Informationen fanden. Hier kann der Chatbot Zeit und zusätzliche Klicks sparen, indem er den Nutzern gezielt Funktionen aufzeigt – einschließlich solcher, die ihnen bislang unbekannt waren.
 
--Wünschten sich gerne mehr daten
+Im Gegensatz zu den Beratern mit wenig \ac{EA}-Erfahrung verstanden die \gls{power-user} jedoch den Scope des Chatbots deutlich intuitiver, da sie aus Erfahrung sofort einordnen konnten, was es bedeutet, wenn der Chatbot „nur die Daten der \gls{ts} und \gls{si} zur Verfügung hat“. Dieser Unterschied in der Vermittlung und im Verständnis des Scopes wird in \autoref{Probleme-Ergebnisse} weiter diskutiert.
+
+Der größte Vorteil und die deutlichste Zeitersparnis des aktuellen Bots zeigte sich bei einfacheren Anfragen, bei denen der Chatbot unter anderem selbstständig zusätzliche Informationen für die Nutzer kombinierte (siehe Frage 4 in \autoref{Fragenkatalog}). Zu diesen einfachen Anfragen zählen praktisch alle Fragen des erstellten Fragenkatalogs (\autoref{Fragenkatalog}). Bei tiefergehenden, frei formulierten Fragen der Nutzer kam der Bot hingegen durch falsche Kombinationen oder Halluzinationen an seine Grenzen (\ac{BEISPIEL VON JOHANNES}). Bei den einfachen Anfragen hingegen konnten selbst die \ac{power-user} mit dem Chatbot, im Vergleich zum \ac{EA}, eine klare Zeitersparnis erzielen (siehe \autoref{Konkrete Ergebnisse}). Zusätzlich gelang es zwei der Nutzer, durch gezielte Rückfragen an die \ac{KI} neue Zusammenhänge im \gls{sap}-System zu erkennen, die ihnen zuvor nicht bekannt waren.
+
+Als größter Kritikpunkt wurde jedoch von allen Testpersonen der eingeschränkte Zugriff auf Systemdaten genannt, der in zukünftigen Versionen des Chatbots jedoch erweitert werden soll (siehe \autoref{Ausblick}.
 
 
 \section{Probleme}
--KI muss scope genau kennen, zum teil wusste sie nicht welche skills sie aufrufen muss und dass sie überhaupt passende skills hat (liegt aber auch zum teil an der schlechten implementierung von Joule)
--User Muss KI Scope genau kennen (bereits angesprochenes Problem in anderen Kapiteln kam aber in den tests trotzdem durch)
--Dokumente müssen aktuell sein (neue Features müssen in der Doku verfügbar sein das AI Beraten kann)
--Chatbot sehr Prompt abhängig, prompts müssen präzise formuliert werden, keine details auslassen 
-    -> KI kann und soll nicht raten
-    -> KI wirkt kaputt wenn nutzer unpräzise sind und \ac{UX} sinkt (stichwort: "BEFÜLLTE Tabellen"
--Agent hat vereinzeln seine Aufgabe nicht verstanden oder wusste nicht das er es lösen kann (besonders in Joule) (nach einem "machs einfach" gings dann)
--Obwohl kontext sehr ausführlich gegeben wurde (hier referenz auf prompt) hat der Bot die Feldernamen nicht erkannt
-   -> Ki macht dann eine query FILLED eq true und ET_BO eq true
-    Obwohl es das feld FILLED nicht gibt und das feld ET_BO heisst anders
--Die KI hat manchmal schlecht gerechnet und leicht abweichende Ergebnisse geliefert (quelle)
--Bot hat zwar die Abfrage angegeben (benutzte Parameter für die Skills), die Nutzer konnten damit jedoch nicht viel Anfangen (dies wurde jedoch akzeptiert, da es eher als Debug funktion dient und die Nutzer im EA auch keine Informationen erhalten wie genau die Daten Abgefragt wurden
+\label{Probleme-Ergebnisse}
+Im Laufe der Tests wurden zudem mehrere technische und umsetzungsbezogene Probleme und Herausforderungen festgestellt.
+
+Das größte Problem und gleichzeitig die größte Herausforderung für zukünftige Versionen des Chatbots ist die Vermittlung des Scopes. Trotz der bereits implementierten Maßnahmen aus \autoref{Scope-Abgrenzung} und zusätzlicher mündlicher Erläuterungen zu den genauen Fähigkeiten des Chatbots kam es in den Tests dennoch zu Situationen, in denen die Nutzer nicht wussten, dass der Bot ihre (eigenen) Frage beantworten könnte - oder sie stellten eine Frage, die der Chatbot aufgrund einer unpassenden Formulierung nicht korrekt interpretierte. Hier ist eine einheitliche und transparente Methode erforderlich, um (1) den Nutzern den Wissensumfang des Chatbots klar zu vermitteln und (2) eine konsistente Möglichkeit zu schaffen, dieses Wissen jederzeit abrufen zu können.
+
+\textbf{Beispiel aus den Tests:}
+Die Aufgabe bestand darin, die zehn größten Tabellen im System abzufragen.
+
+\begin{enumerate}
+    \item Die Nutzerin muss wissen, dass der Chatbot in der Lage ist, eine solche Anfrage zu beantworten.
+    ->Dies kann erreicht werden, indem in der Beschreibung des Chatbots die Einbindung des \ac{EA}-Backends klar dargestellt wird.
+
+    \item Der Nutzer muss hingegen \textvf{nicht} wissen, dass sich diese Informationen in der \gls{si} befinden.
+    -> Die \ac{KI} arbeitet im \ac{EA}-Backend, in dem die Daten nach Apps sortiert sind. Davon soll der Nutzer jedoch nichts bemerken. 
+    -> Die Architektur ist entsprechend so zu gestalten, dass diese interne Struktur vollständig abstrahiert wird.
+\end{enumerate}
+    
+Ergänzend hierzu zeigte sich, dass die \ac{KI} nach einer Fehlgeschlagenen Anfrage spätestens im zweiten Anlauf selbst unterstützen konnte, indem sie Auskunft zu ihren eigenen Möglichkeiten gab. Dies ist grundsätzlich positiv, führt jedoch zu unnötigen Verzögerungen und wirkt sich entsprechend nachteilig auf die \ac{UX} aus.
+
+Im Zusammenhang mit der erforderlichen Scope‑Transparenz für die Nutzer ist zudem festzustellen, dass auch die \ac{KI} selbst ein konsistentes Verständnis ihres Funktionsumfangs benötigt. In mehreren Testläufen kam es vor, dass die \ac{KI} nicht erkannte, dass sie die Fähigkeiten besitzt, eine Anfrage korrekt zu beantworten. Teilweise ist dieses Verhalten auf die Architektur des \gls{joule-studio}-Chatbots zurückzuführen, da hier direkt mit der nicht konfigurierbaren Joule-\ac{KI} interagiert wird, die die bereitgestellten \glspl{skill} nicht zwingend verwenden muss.
+
+Ein weiterer Aspekt, der insbesondere im produktiven Einsatz eine zentrale Rolle spielt, betrifft die Pflicht, die zugrunde liegenden Dokumente stets aktuell zu halten. Eine verlässliche Unterstützung durch die \ac{KI} ist nur dann gewährleistet, wenn die Wissensbasis auf dem neuesten Stand ist. Gerade bei einer sich schnell weiterentwickelnden Software wie dem \ac{EA} ist dies zwingend erforderlich und kann mit einem erheblichen zusätzlichen Aufwand verbunden sein.
+
+Ein bekanntes und grundlegend unvermeidbares Problem beim Einsatz von \ac{KI} ist die Notwendigkeit präzise formulierter Prompts \ac{(QUELLE)}. In den Usertests zeigte sich, dass die Tester vereinzelt Schlüsselbegriffe wie „\textit{befüllte} Tabellen“ wegließen, wodurch die Antwort des Chatbots unbemerkt falsch wurde. Dies lässt sich nur schwer vollständig vermeiden, solange Nutzer ihre Anfragen nicht bewusst und sorgfältig formulieren. Insgesamt war die Sprache der Testpersonen jedoch über alle Gruppen hinweg sehr präzise, und sie konnten ihre Fragen der \ac{KI} stets ausreichend detailliert stellen.
+
+Ein nutzerunabhängiges und mit dem Backend zusammenhängendes Problem, das bereits während der Implementierung auftrat, betrifft die Feldnamen der Backend-Tabellen. Diese Bezeichnungen sind technisch geprägt und weichen häufig stark von der Wortwahl der Nutzer ab, was dazu führte, dass die \ac{KI} manche Felder nicht korrekt zuordnen konnte. Wenn die Feldnamen, wie im \gls{joule-studio}, nicht direkt über die \glspl{skill} an den Agenten übergeben werden, ist eine ausführliche Beschreibung der relevanten Felder in den Abfrageattributen zwingend erforderlich, um erfolgreiche und konsistente Abfragen sicherzustellen.
+
+!!!KI hat manchmal schlecht gerechnet? \ac{Quelle?}!!!!
+
+Der Bot hat zwar, wie in \autoref{Wie werden Fehler vermieden?} gefordert, die Quellen zu seinen Antworten angegeben, jedoch empfand keiner der Nutzer diese Angaben im Kontext der Datenbankabfragen als hilfreich. Die Nutzer konnten mit den Parametern oder den generierten Abfrage‑\ac{URI}s wenig anfangen. Vereinzelt wurde nach dem Namen der Tabelle gefragt, aus der die Informationen stammen. Dies war jedoch nicht möglich, da die dem Chatbot zur Verfügung gestellten Daten ausschließlich Systemdaten umfassen und keine Details zu einzelnen Tabellen beinhalten. Zudem gingen drei der vier \gls{power-user} aufgrund der engen Verbindung zum \ac{EA} davon aus, dass ein Link zu den gezeigten Daten im \ac{EA}, in die Antwort eingebunden werden könnte, was in Zukunft als Alternative zu einer Abfrage‑\ac{URI} als Quelle für Datenbankabfragen dienen könnte. 
+
+Bei nicht trivialen Fragen, deren Beantwortung die Kombination mehrerer Apps erforderte, zwei der vier Nutzer stellten entsprechende eigene Fragen, begann die \ac{KI}, Funktionen einzelner Apps zu halluzinieren oder Zusammenhänge falsch zu interpretieren. Dennoch bestätigten die Nutzer übereinstimmend, dass sich die \ac{KI} in solchen Fällen grundsätzlich auf dem richtigen Weg befand und die wesentlichen Schritte nachvollziehbar waren. 
+Dieses Verhalten wird daher als ein auszuschöpfendes Potenzial bewertet, das sich durch eine erweiterte Wissensgrundlage sowie eine spezifisch für die \ac{KI} optimierte Annotation der bestehenden Wissensquellen zukünftig gezielt nutzen ließe.
     
 \section{Grenzen der \ac{KI}}
 \label{Grenzen der KI}
+Neben den identifizierten Problemen wurden auch Grenzen der \ac{KI} deutlich, die sich nach aktuellem Stand technisch nicht sinnvoll umsetzen lassen.
+
 -Chatbot kann nicht sinnvoll mehr als 20 Einträge anzeigen da sein Kontext gesprengt wird (als nutzer nach allen tabellen gefragt haben und es kamen zb 8000 zurück ist er abgestürzt) und es visuell nicht mehr sinnvoll ist
 -Momentan können die Agenten keine Visualisierungen erstellen was zb bei zusammenhängen zwischen tabellen sinnvoll (und von manchen Nutzern (ute und noch jmd) gewünscht war. Dafür ist der EA noch deutlich besser
+-Wenn Nutzer sich zu falsch ausdrücken wird die KI nicht wissen können was er will. KI kann keine Gedanken lesen. Deshalb scope so wichtig. KI basiert auf EA Backend und Arbeitet momentan in einem "Appdenken"
 
 \section{\ac{UX}}
--Langsam
--Mehr visuelle aufbereitungsmöglichkeit
--Kam sehr gut an das bot in Teams verfügbar ist
-
-\section{Hypothesen Evaluierung} \label{Hypothesen Evaluierung}
-Hier struktuiert die Hypothesen einbinden oder das sleek im Text oben immer unterbringen?
-1. Sehr komplexe abfragen scheitern öfters, 
--> Joule kennt genaue Feldnamen nicht (häufigstes problem=
--> Komplizierte Abfragen mit vielen parametern werden von den Usern praktisch nie benutzt (user wurden gefragt ob so abfragen realisitisch sind)
--> Wichtiger ist die Kombination der Daten aus mehreren Schnittstellen
-abgrenzung -> Es wird hier nicht beachtet falls der Bot den Falschen Skills auswählt sondern nur ob die Abfrage richtig ist wenn es soweit kommt
-
-2. Bei Simplen, klaren Anfragen hat es immer direkt geklappt. Aber bei sehr komplexen anfragen nur zum Teil, es wurden trotzdem infos vermischt und Halluziniert (Nico Chat)
-
-3. Den Prototypen würden nicht alle verwenden, da die Tiefe fehlt. Für das was er kann würde man ihn benutzen aber meistens sind es fragen die der Bot nichht selbst
+Während den Tests sind mehrere positive wie negative Aspekte aufgefallen, welche die \ac{UX} einschränken. Diese werden hier aufgezählt und sollen in Zukunft, wenn möglich, berücksichtigt werden sind aber im Kontext der Arbeit nicht zwingend Relevant.
+\begin{itemize}
+    \item \textbf{Lange Antwortzeiten}: Durch fehlenden Einfluss auf den Prozess und simples warten bis die Ki fertig ist entstehen lange Wartezeiten.
+    \item \textbf{Visualisierungen}: Die Nutzer wünschen sich in der ersten Übersicht der Antwort mehr bzw. überhaupt "geeignete" Visualisierungen der Antworten.
+    \item \textbf{Teams}: Die Verfügbarkeitet in Microsoft Teams kam bei den Nutzern sehr gut an und passte laut Aussagen derer "sehr gut in den Arbeitsablauf".
+\end{itemize}
 
 
 \section{Fazit}
--KI Sollte als high level consultant helfen (weil lieber einfache tasks dafür gut)
+Der größte Mehrwert liegt nicht im Ersatz bestehender Tools, sondern in deren intelligenter Ergänzung.
+Der Chatbot fungiert primär als Vermittler zwischen Nutzer und komplexem Systemwissen.
+Besonders bei einfachen, häufigen und explorativen Aufgaben zeigt sich ein klarer Effizienzgewinn.
+Die langfristige Stärke liegt in der Kombination heterogener Datenquellen und der Unterstützung mehrstufiger Analyseprozesse.
 
--Anhand des EA usecase bewerten
-    -Im EA soll man screenshots machen 
-    -> KI ergänzt und hilft beratern schnell Dinge herauszufinden
+
+
     
--Bewerten wie gut KI  Dinge gut kann die der EA eh schon kann
-- WAS IST DER MEHRWERT????<----------
-    -Unerfahreren Nutzern EA zugänglich machen
-    -(Frontend) Alternative zum EA bieten
-    -EA Daten und externe dokumente einfach verbinden
-    -Beraten basierend auf externen Dokumenten
+
+Vergleich Chatbot vs. EA als neue Interaktionsform
+→ Chatbot verändert nicht nur die Geschwindigkeit, sondern die Art, wie Nutzer auf Daten zugreifen (dialogbasiert statt navigationsbasiert)
+Reduktion von Einstiegshürden
+→ insbesondere für seltene EA-Nutzung oder geringe Technikaffinität
+Verlagerung von Wissen
+→ Wissen muss weniger beim Nutzer liegen (z. B. Tabellen, Transaktionen), sondern wird teilweise vom System übernommen
+
+
+Reduktion manueller Schritte
+→ weniger Navigieren, Suchen, Kontextwechsel (EA, Kundensystem, Confluence etc.)
+    -> KI sucht und Fasst zusammen
+**Zeitersparnis besonders bei:
+    initialer Informationssuche
+    Standardabfragen
+    Orientierung im System**
+Abhängigkeit von Systemverfügbarkeit reduziert
+→ zumindest teilweise durch vorgelagerte Informationen (z. B. Tabellen finden ohne Login bei Thema BO\_S)
+
+Chatbot wird explorativ genutzt
+→ Nutzer stellen Folgefragen und entdecken neue Zusammenhänge
+Geringe Nutzung bestehender Wissensquellen (Confluence, EA-Doku)
+→ Chatbot schließt hier eine echte Lücke
+
+
+Offene Probleme
+Vertrauen begrenzt durch kleine Fehler
+→ KI wird als Unterstützung, nicht als Ersatz gesehen
+-> Notwendigkeit menschlicher Validierung bleibt bestehen (da kritischen Kundenkontexte)
+Transparenz (Quellen) entscheidend für Akzeptanz (nutzer wollen Wissen woher hat er das)?
+
+**Nicht geeignet für:
+komplexe, mehrstufige Analysen 
+große Datenmengen (Kontextlimit)
+visuelle Analysen (momentan)**
+**Stärken liegen klar bei:
+Gezieltes Suchen von Wissen aus Verschiedenen Quellen
+Kombination von Daten
+Individuelle Nutzung
+
+
