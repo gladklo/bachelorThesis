@@ -1,6 +1,6 @@
 Allgemeine Dinge zu Beachten von ihm:
 
-Glasklar was von mir ist und was nicht der ArbeitTeams egalteams und SAP ist nicht die welt und aus forschungssicht irrelevantIm Rahmen mussten wir uns auf Teams / Copilot ... beschränken (limitation) aber es ist eben ein reales arbeitssetting	Warum ist es die bestmögliche Umgebung (literatur) -> Es gibt keine ready Anwendungen die das Kombinieren oder Möglichkeiten einfach auf SAP Systeme zuzugreifen oder das deployment zu Teams ermöglichenSchwerpunkt ist die AuswertungKI muss sagen könne was sie kann und was nicht nach nutzeranfrage
+Im Rahmen mussten wir uns auf Teams / Copilot ... beschränken (limitation) aber es ist eben ein reales arbeitssetting	Warum ist es die bestmögliche Umgebung (literatur) -> Es gibt keine ready Anwendungen die das Kombinieren oder Möglichkeiten einfach auf SAP Systeme zuzugreifen oder das deployment zu Teams ermöglichenSchwerpunkt ist die Auswertung
 
 
 1 Mail (18.02.2026)-----------------------------------------------------------------------------
@@ -9,14 +9,6 @@ Glasklar was von mir ist und was nicht der ArbeitTeams egalteams und SAP ist n
 
 Soweit ich weiß ja, bitte in Moodle hochladen und zusätzlich an beide Betreuer per Mail mit dem informellen Hinweis im Mailtext, dass es sich bei dem PDF um eine identische Version zur finalen Abgabe in Moodle handelt. Trotzdem der Disclaimer: Keine Garantie bei meinen Antworten zu formalen Prüfungsabläufen, im Zweifel noch mal beim Prüfungsamt oder dem Studiengangsleiter fragen.
 
-2. Brauche ich Quellen für meine Glossareinträge?
-
-Normalerweise nicht, wenn Sie die Erklärungen selbst schreiben. Wenn Sie darin zitieren oder eine Definition übernehmen, dann natürlich schon.
-
-
-4. Soll ich den Authentifizierungsprozess und was wir getan haben mit in die Arbeit aufnehmen? (Sehr Technisch, im grunde nicht relevant, kein Mehrwert)
-
-Kurz beschreiben, wie die Arbeit technisch eingebettet ist, Details können Sie da dann wohl weglassen (Relevanz will ich nicht beurteilen, das ist Ihre Aufgabe, ich bewerte das dann, wenn ich die Arbeit lese)
 
 
 6. Muss ich nichtfunktionale anforderungen definieren und beschreiben, selbst wenn diese theoretisch nicht relevant sind? (Geht ja in der Arbeit um den Konkreten fall ob KI helfen kann, wenn eben alles funktioniert (best case)
