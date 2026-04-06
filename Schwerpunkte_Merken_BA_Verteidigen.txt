@@ -1,3 +1,27 @@
 -Was bedeutet Design Sience Research
 -Warum sind meine Prompts so wie sie sie sind? Durch Literatur begründen?
 -Was wir als zusätzliche Informationen bereitstellen (in den Dokumenten)
+-In der Vorteile Meiner Lösung beziehen sich die Vorteile vermehrt auf die Vorgestellten Alternativen
+-Kontextbezogen heißt moistens -> Es geht um genau das was der nutzer will und nicht 2000 andere dinge
+-In Ergebnisse bewusst nicht so viel Quellen weil viel Fokus auf vergleich wischen Power user und Wenig erfahrung lag und nutzen für den EA (<- Praktisch nichts vergleichbares dazu)
+-Es gab nicht viele passende Quellen zu Ergebnisse:
+	-Oft wurde ML und nicht pretrained LLMs genommen
+	-Oft wird gesagt das ohne KI die fehlerquote hoch lag
+	-Oft keine Konkreten learinings (AI kann das, könnte das, hat hier potential...)
+
+
+-Was ist quantitative Risikobewertung
+
+
+
+
+
+
+
+
+Ich habe hier so viel Wert auf Teams und Co gelegt weil es eben Umsetzbar ist und einfach reandom zeug nicht realisitisch
+(Zu hoher aufwand, firma sagt nein, -> Nichtmal testbar)
+
+
+-Latex hat selbst die Bilder plaziert (Checkliste hat gesagt ich solls so lassen)
+-
